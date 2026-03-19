@@ -1,0 +1,3051 @@
+Script started on 2026-03-19 00:31:31+00:00 [TERM="xterm" TTY="/dev/pts/10" COLUMNS="80" LINES="24"]
+python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localhost"
++=+ XLVIP-INFO: XlTlmMessageLayer::connectToServer():
++=+    Connecting clientId=':remoteSession2' to 'server@localhost' ...
++=+    Successfully connected 'client :remoteSession2' to 'server@localhost'
++=+    Negotiated socket connection configuration
++=+        Use socket manager thread=FALSE
++=+        Use TCP_NODELAY=TRUE
++=+        Use UDP=FALSE
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession2
++=+        conduitId=:timeServerConduit2
+           localClientConduitHandle=0x570e59102f48
+           remoteServerProxyConduitHandle=0x3ac62ae0
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession2
++=+        conduitId=:resetServerConduit2
+           localClientConduitHandle=0x570e591a9f58
+           remoteServerProxyConduitHandle=0x3ac5f110
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession2
++=+        conduitId=:txConfigPort2
+           localClientConduitHandle=0x570e590c52b0
+           remoteServerProxyConduitHandle=0x3ac71830
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession2
++=+        conduitId=:rxConfigPort2
+           localClientConduitHandle=0x570e59146cb0
+           remoteServerProxyConduitHandle=0x3ac6dc30
++=+ INFO: ... successfully connected to TLM FabricServer !
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession2
++=+        conduitId=:txCanFrameConduit2
+           localClientConduitHandle=0x570e59203a90
+           remoteServerProxyConduitHandle=0x3ac67b20
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession2
++=+        conduitId=:rxCanFrameConduit2
+           localClientConduitHandle=0x570e59203ca0
+           remoteServerProxyConduitHandle=0x3ac669b0
+
++=visualizer+=
+  VSI time: 100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 1000000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 1100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 1200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 1300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 1400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 1500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 1600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 1700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 1800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 1900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 2000000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 2100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 2200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 2300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 2400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 2500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 2600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 2700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 2800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 2900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 3000000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 3100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 3200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 3300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 3400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 3500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 3600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 3700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 3800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 3900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 4000000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 4100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 4200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 4300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 4400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 4500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 4600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 4700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 4800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 4900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 5000000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 5100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 5200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 5300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 5400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 5500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 5600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 5700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 5800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 5900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 6000000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 6100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 6200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 6300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 6400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 6500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 6600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 6700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 6800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 6900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 7000000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 7100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 7200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 7300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 7400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 7500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 7600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 7700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 7800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 7900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 8000000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 8100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 8200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 8300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 8400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 8500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 8600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 8700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 8800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 8900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 9000000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 9100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 9200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 9300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 9400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 9500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 9600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 9700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 9800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 9900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 10000000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 10100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 10200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 10300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 10400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 10500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 10600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 10700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 10800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 10900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 11000000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 11100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 11200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 11300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 11400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 11500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 11600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 11700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 11800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 11900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 12000000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 12100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 12200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 12300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 12400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 12500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 12600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 12700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 12800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 12900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 13000000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 13100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 13200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 13300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 13400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 13500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 13600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 13700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 13800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 13900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 14000000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 14100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 14200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 14300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 14400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 14500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 14600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 14700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 14800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 14900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 15000000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 15100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 15200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 15300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 15400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 15500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 15600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 15700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 15800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 15900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 16000000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 16100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 16200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 16300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 16400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 16500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 16600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 16700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 16800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 16900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 17000000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 17100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 17200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 17300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 17400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 17500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 17600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 17700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 17800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 17900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 18000000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 18100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 18200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 18300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 18400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 18500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 18600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 18700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 18800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 18900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 19000000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 19100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 19200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 19300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 19400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 19500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 19600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 19700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 19800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 19900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 20000000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 20100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 20200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 20300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 20400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 20500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 20600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 20700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 20800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 20900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 21000000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 21100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 21200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 21300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 21400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 21500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 21600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 21700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 21800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 21900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 22000000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 22100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 22200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 22300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 22400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 22500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 22600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 22700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 22800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 22900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 23000000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 23100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 23200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 23300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 23400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 23500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 23600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 23700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 23800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 23900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 24000000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 24100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 24200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 24300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 24400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 24500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 24600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 24700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 24800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 24900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 25000000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 25100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 25200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 25300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 25400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 25500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 25600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 25700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 25800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 25900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 26000000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 26100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 26200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 26300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 26400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 26500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 26600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 26700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 26800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 26900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 27000000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 27100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 27200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 27300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 27400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 27500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 27600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 27700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 27800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 27900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 28000000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 28100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 28200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 28300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 28400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 28500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 28600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 28700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 28800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 28900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 29000000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 29100000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 29200000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 29300000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 29400000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 29500000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 29600000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 29700000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 29800000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
+
++=visualizer+=
+  VSI time: 29900000100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+
+
+
++=+ XLVIP-INFO: XlTlmMessageLayer::disconnectFromServer():
++=+    Disconnecting this remote client from TLM fabric server:
++=+        clientId=:remoteSession2
+
+Script done on 2026-03-19 00:33:21+00:00 [COMMAND_EXIT_CODE="0"]

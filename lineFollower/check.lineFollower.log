@@ -1,0 +1,1196 @@
+Script started on 2026-03-19 00:31:30+00:00 [TERM="xterm" TTY="/dev/pts/4" COLUMNS="80" LINES="24"]
+././FabricServer\
+	--domain=AF_UNIX --cmdFile=
+
+        SystemC 2.3.4-Accellera --- Feb 12 2024 19:17:52
+        Copyright (c) 1996-2022 by all Contributors,
+        ALL RIGHTS RESERVED
+=+= VSI-DB-INFO: Ending Parser
+=+= VSI-SIMCTRL-INFO: Setting step size = 100000000
++=+ XLVIP-INFO: XlSyscTlmResetServer::connect() conduitName=:resetServerConduit0 index=0 calling uvmc_connect<>() ...
+Connecting an SC-side proxy port for 'fabricServer.resetServer.simple_target_socket_0' with lookup string ':resetServerConduit0' for later connection with SV
+
+Warning: (W505) object already exists: fabricServer.uvmc_registry.:resetServerConduit0. Latter declaration will be renamed to fabricServer.uvmc_registry.:resetServerConduit0_0
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+
+Warning: (W505) object already exists: fabricServer.uvmc_registry.:resetServerConduit0. Latter declaration will be renamed to fabricServer.uvmc_registry.:resetServerConduit0_1
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+XLVIP-INFO: XlSyscTlmResetServer::connect() uvmc_connect<>() returnedProxy=0x3ac2ebf0
+Connecting an SC-side proxy port for 'fabricServer.timeServer.advanceTargetSocket' with lookup string ':timeServerConduit0' for later connection with SV
+
+Warning: (W505) object already exists: fabricServer.uvmc_registry.:timeServerConduit0. Latter declaration will be renamed to fabricServer.uvmc_registry.:timeServerConduit0_0
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+
+Warning: (W505) object already exists: fabricServer.uvmc_registry.:timeServerConduit0. Latter declaration will be renamed to fabricServer.uvmc_registry.:timeServerConduit0_1
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+Connecting an SC-side proxy chan for 'fabricServer.canTlmBus.tlm_base_initiator_socket_0' with lookup string ':rxCanFrameConduit0' for later connection with SV
+
+Warning: (W505) object already exists: fabricServer.:rxCanFrameConduit0. Latter declaration will be renamed to fabricServer.:rxCanFrameConduit0_0
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+
+Warning: (W505) object already exists: fabricServer.:rxCanFrameConduit0. Latter declaration will be renamed to fabricServer.:rxCanFrameConduit0_1
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+Connecting an SC-side proxy port for 'fabricServer.canTlmBus.simple_target_socket_tagged_0' with lookup string ':txCanFrameConduit0' for later connection with SV
+
+Warning: (W505) object already exists: fabricServer.uvmc_registry.:txCanFrameConduit0. Latter declaration will be renamed to fabricServer.uvmc_registry.:txCanFrameConduit0_0
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+
+Warning: (W505) object already exists: fabricServer.uvmc_registry.:txCanFrameConduit0. Latter declaration will be renamed to fabricServer.uvmc_registry.:txCanFrameConduit0_1
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+Connecting an SC-side proxy chan for 'fabricServer.vsiSimCtrl.txPort0' with lookup string ':rxConfigPort0' for later connection with SV
+
+Warning: (W505) object already exists: fabricServer.:rxConfigPort0. Latter declaration will be renamed to fabricServer.:rxConfigPort0_0
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+
+Warning: (W505) object already exists: fabricServer.:rxConfigPort0. Latter declaration will be renamed to fabricServer.:rxConfigPort0_1
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+Connecting an SC-side proxy port for 'fabricServer.vsiSimCtrl.rxPort0' with lookup string ':txConfigPort0' for later connection with SV
+
+Warning: (W505) object already exists: fabricServer.uvmc_registry.:txConfigPort0. Latter declaration will be renamed to fabricServer.uvmc_registry.:txConfigPort0_0
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+
+Warning: (W505) object already exists: fabricServer.uvmc_registry.:txConfigPort0. Latter declaration will be renamed to fabricServer.uvmc_registry.:txConfigPort0_1
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
++=+ XLVIP-INFO: XlSyscTlmResetServer::connect() conduitName=:resetServerConduit1 index=1 calling uvmc_connect<>() ...
+Connecting an SC-side proxy port for 'fabricServer.resetServer.simple_target_socket_1' with lookup string ':resetServerConduit1' for later connection with SV
+
+Warning: (W505) object already exists: fabricServer.uvmc_registry.:resetServerConduit1. Latter declaration will be renamed to fabricServer.uvmc_registry.:resetServerConduit1_0
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+
+Warning: (W505) object already exists: fabricServer.uvmc_registry.:resetServerConduit1. Latter declaration will be renamed to fabricServer.uvmc_registry.:resetServerConduit1_1
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+XLVIP-INFO: XlSyscTlmResetServer::connect() uvmc_connect<>() returnedProxy=0x3ac47150
+Connecting an SC-side proxy port for 'fabricServer.imeServer.advanceTargetSocket' with lookup string ':timeServerConduit1' for later connection with SV
+
+Warning: (W505) object already exists: fabricServer.uvmc_registry.:timeServerConduit1. Latter declaration will be renamed to fabricServer.uvmc_registry.:timeServerConduit1_0
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+
+Warning: (W505) object already exists: fabricServer.uvmc_registry.:timeServerConduit1. Latter declaration will be renamed to fabricServer.uvmc_registry.:timeServerConduit1_1
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+Connecting an SC-side proxy chan for 'fabricServer.canTlmBus.tlm_base_initiator_socket_1' with lookup string ':rxCanFrameConduit1' for later connection with SV
+
+Warning: (W505) object already exists: fabricServer.:rxCanFrameConduit1. Latter declaration will be renamed to fabricServer.:rxCanFrameConduit1_0
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+
+Warning: (W505) object already exists: fabricServer.:rxCanFrameConduit1. Latter declaration will be renamed to fabricServer.:rxCanFrameConduit1_1
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+Connecting an SC-side proxy port for 'fabricServer.canTlmBus.simple_target_socket_tagged_1' with lookup string ':txCanFrameConduit1' for later connection with SV
+
+Warning: (W505) object already exists: fabricServer.uvmc_registry.:txCanFrameConduit1. Latter declaration will be renamed to fabricServer.uvmc_registry.:txCanFrameConduit1_0
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+
+Warning: (W505) object already exists: fabricServer.uvmc_registry.:txCanFrameConduit1. Latter declaration will be renamed to fabricServer.uvmc_registry.:txCanFrameConduit1_1
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+Connecting an SC-side proxy chan for 'fabricServer.vsiSimCtrl.txPort1' with lookup string ':rxConfigPort1' for later connection with SV
+
+Warning: (W505) object already exists: fabricServer.:rxConfigPort1. Latter declaration will be renamed to fabricServer.:rxConfigPort1_0
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+
+Warning: (W505) object already exists: fabricServer.:rxConfigPort1. Latter declaration will be renamed to fabricServer.:rxConfigPort1_1
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+Connecting an SC-side proxy port for 'fabricServer.vsiSimCtrl.rxPort1' with lookup string ':txConfigPort1' for later connection with SV
+
+Warning: (W505) object already exists: fabricServer.uvmc_registry.:txConfigPort1. Latter declaration will be renamed to fabricServer.uvmc_registry.:txConfigPort1_0
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+
+Warning: (W505) object already exists: fabricServer.uvmc_registry.:txConfigPort1. Latter declaration will be renamed to fabricServer.uvmc_registry.:txConfigPort1_1
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
++=+ XLVIP-INFO: XlSyscTlmResetServer::connect() conduitName=:resetServerConduit2 index=2 calling uvmc_connect<>() ...
+Connecting an SC-side proxy port for 'fabricServer.resetServer.simple_target_socket_2' with lookup string ':resetServerConduit2' for later connection with SV
+
+Warning: (W505) object already exists: fabricServer.uvmc_registry.:resetServerConduit2. Latter declaration will be renamed to fabricServer.uvmc_registry.:resetServerConduit2_0
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+
+Warning: (W505) object already exists: fabricServer.uvmc_registry.:resetServerConduit2. Latter declaration will be renamed to fabricServer.uvmc_registry.:resetServerConduit2_1
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+XLVIP-INFO: XlSyscTlmResetServer::connect() uvmc_connect<>() returnedProxy=0x3ac5d330
+Connecting an SC-side proxy port for 'fabricServer.meServer.advanceTargetSocket' with lookup string ':timeServerConduit2' for later connection with SV
+
+Warning: (W505) object already exists: fabricServer.uvmc_registry.:timeServerConduit2. Latter declaration will be renamed to fabricServer.uvmc_registry.:timeServerConduit2_0
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+
+Warning: (W505) object already exists: fabricServer.uvmc_registry.:timeServerConduit2. Latter declaration will be renamed to fabricServer.uvmc_registry.:timeServerConduit2_1
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+Connecting an SC-side proxy chan for 'fabricServer.canTlmBus.tlm_base_initiator_socket_2' with lookup string ':rxCanFrameConduit2' for later connection with SV
+
+Warning: (W505) object already exists: fabricServer.:rxCanFrameConduit2. Latter declaration will be renamed to fabricServer.:rxCanFrameConduit2_0
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+
+Warning: (W505) object already exists: fabricServer.:rxCanFrameConduit2. Latter declaration will be renamed to fabricServer.:rxCanFrameConduit2_1
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+Connecting an SC-side proxy port for 'fabricServer.canTlmBus.simple_target_socket_tagged_2' with lookup string ':txCanFrameConduit2' for later connection with SV
+
+Warning: (W505) object already exists: fabricServer.uvmc_registry.:txCanFrameConduit2. Latter declaration will be renamed to fabricServer.uvmc_registry.:txCanFrameConduit2_0
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+
+Warning: (W505) object already exists: fabricServer.uvmc_registry.:txCanFrameConduit2. Latter declaration will be renamed to fabricServer.uvmc_registry.:txCanFrameConduit2_1
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+Connecting an SC-side proxy chan for 'fabricServer.vsiSimCtrl.txPort2' with lookup string ':rxConfigPort2' for later connection with SV
+
+Warning: (W505) object already exists: fabricServer.:rxConfigPort2. Latter declaration will be renamed to fabricServer.:rxConfigPort2_0
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+
+Warning: (W505) object already exists: fabricServer.:rxConfigPort2. Latter declaration will be renamed to fabricServer.:rxConfigPort2_1
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+Connecting an SC-side proxy port for 'fabricServer.vsiSimCtrl.rxPort2' with lookup string ':txConfigPort2' for later connection with SV
+
+Warning: (W505) object already exists: fabricServer.uvmc_registry.:txConfigPort2. Latter declaration will be renamed to fabricServer.uvmc_registry.:txConfigPort2_0
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
+
+Warning: (W505) object already exists: fabricServer.uvmc_registry.:txConfigPort2. Latter declaration will be renamed to fabricServer.uvmc_registry.:txConfigPort2_1
+In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
++=+ XLVIP-INFO: XlTlmMessageLayer::connectToClient():
++=+    Listening for client ':remoteSession0' domain=AF_UNIX portNum=50101 ...
++=+ XLVIP-INFO: XlTlmMessageLayer::connectToClient():
++=+    Listening for client ':remoteSession1' domain=AF_UNIX portNum=50102 ...
++=+ XLVIP-INFO: XlTlmMessageLayer::connectToClient():
++=+    Listening for client ':remoteSession2' domain=AF_UNIX portNum=50103 ...
++=+ XLVIP-INFO: XlTlmMessageLayer::listenForAllClients() Server 'localhost' listening for clients ...
++=+ INFO: FabricServer::start_of_simulation() Waiting for client connections ...
+@0 ns (SC time) +=+ INFO: Awaiting reset ...
++=+ XLVIP-INFO: XlTlmMessageLayer::collectClientConnections():
++=+    Successfully connected to client ':remoteSession0@0.0.0.0'
++=+    Negotiated socket connection configuration
++=+        Use socket manager thread=FALSE
++=+        Use TCP_NODELAY=TRUE
++=+        Use UDP=FALSE
++=+ XLVIP-INFO: XlTlmMessageLayer::collectClientConnections():
++=+    Successfully connected to client ':remoteSession1@0.0.0.0'
++=+    Negotiated socket connection configuration
++=+        Use socket manager thread=FALSE
++=+        Use TCP_NODELAY=TRUE
++=+        Use UDP=FALSE
++=+ XLVIP-INFO: XlTlmMessageLayer::collectClientConnections():
++=+    Successfully connected to client ':remoteSession2@0.0.0.0'
++=+    Negotiated socket connection configuration
++=+        Use socket manager thread=FALSE
++=+        Use TCP_NODELAY=TRUE
++=+        Use UDP=FALSE
++=+ XLVIP-INFO: FabricServer: Using SALT library path: /data/tools/pave/innexis_home/vsi_2025.2//common/license/salt_2.4.2/salt_sdk/lnx64/bin
++=+ XLVIP-INFO: FabricServer: Package info file is: /data/tools/pave/innexis_home/vsi_2025.2//common/license/salt_2.4.2/salt_sdk/lnx64/bin/mgc.pkginfo
++=+ XLVIP-INFO: FabricServer: Attempting to checkout license 'VeloceStratoOS' : Checked out license.
+
+Info: XLVIP-INFO: TLM fabric backplane license checkout successful.
++=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
++=+    Received remote client ::connect() request:
+           clientUrl=0.0.0.0
++=+        conduitId=:timeServerConduit0
+           remoteClientConduitHandle=0x650dfb4fbdb8
+           localServerProxyConduit=0x3ac356a0
++=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
++=+    Received remote client ::connect() request:
+           clientUrl=0.0.0.0
++=+        conduitId=:resetServerConduit0
+           remoteClientConduitHandle=0x650dfb5ef3c8
+           localServerProxyConduit=0x3ac317e0
++=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
++=+    Received remote client ::connect() request:
+           clientUrl=0.0.0.0
++=+        conduitId=:txConfigPort0
+           remoteClientConduitHandle=0x650dfb51e230
+           localServerProxyConduit=0x3ac45070
++=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
++=+    Received remote client ::connect() request:
+           clientUrl=0.0.0.0
++=+        conduitId=:rxConfigPort0
+           remoteClientConduitHandle=0x650dfb668e00
+           localServerProxyConduit=0x3ac40c80
++=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
++=+    Received remote client ::connect() request:
+           clientUrl=0.0.0.0
++=+        conduitId=:txCanFrameConduit0
+           remoteClientConduitHandle=0x650dfb669080
+           localServerProxyConduit=0x3ac3a130
++=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
++=+    Received remote client ::connect() request:
+           clientUrl=0.0.0.0
++=+        conduitId=:rxCanFrameConduit0
+           remoteClientConduitHandle=0x650dfb669300
+           localServerProxyConduit=0x3ac38e90
++=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
++=+    Received remote client ::connect() request:
+           clientUrl=0.0.0.0
++=+        conduitId=:timeServerConduit1
+           remoteClientConduitHandle=0x56e63819ef48
+           localServerProxyConduit=0x3ac4cd20
++=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
++=+    Received remote client ::connect() request:
+           clientUrl=0.0.0.0
++=+        conduitId=:resetServerConduit1
+           remoteClientConduitHandle=0x56e6382abe48
+           localServerProxyConduit=0x3ac48f30
++=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
++=+    Received remote client ::connect() request:
+           clientUrl=0.0.0.0
++=+        conduitId=:txConfigPort1
+           remoteClientConduitHandle=0x56e6381f5290
+           localServerProxyConduit=0x3ac5b6a0
++=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
++=+    Received remote client ::connect() request:
+           clientUrl=0.0.0.0
++=+        conduitId=:rxConfigPort1
+           remoteClientConduitHandle=0x56e6381e2cb0
+           localServerProxyConduit=0x3ac57aa0
++=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
++=+    Received remote client ::connect() request:
+           clientUrl=0.0.0.0
++=+        conduitId=:txCanFrameConduit1
+           remoteClientConduitHandle=0x56e6381612b0
+           localServerProxyConduit=0x3ac51540
++=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
++=+    Received remote client ::connect() request:
+           clientUrl=0.0.0.0
++=+        conduitId=:rxCanFrameConduit1
+           remoteClientConduitHandle=0x56e6382ac230
+           localServerProxyConduit=0x3ac503d0
++=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
++=+    Received remote client ::connect() request:
+           clientUrl=0.0.0.0
++=+        conduitId=:timeServerConduit2
+           remoteClientConduitHandle=0x570e59102f48
+           localServerProxyConduit=0x3ac62ae0
++=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
++=+    Received remote client ::connect() request:
+           clientUrl=0.0.0.0
++=+        conduitId=:resetServerConduit2
+           remoteClientConduitHandle=0x570e591a9f58
+           localServerProxyConduit=0x3ac5f110
++=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
++=+    Received remote client ::connect() request:
+           clientUrl=0.0.0.0
++=+        conduitId=:txConfigPort2
+           remoteClientConduitHandle=0x570e590c52b0
+           localServerProxyConduit=0x3ac71830
++=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
++=+    Received remote client ::connect() request:
+           clientUrl=0.0.0.0
++=+        conduitId=:rxConfigPort2
+           remoteClientConduitHandle=0x570e59146cb0
+           localServerProxyConduit=0x3ac6dc30
++=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
++=+    Received remote client ::connect() request:
+           clientUrl=0.0.0.0
++=+        conduitId=:txCanFrameConduit2
+           remoteClientConduitHandle=0x570e59203a90
+           localServerProxyConduit=0x3ac67b20
++=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
++=+    Received remote client ::connect() request:
+           clientUrl=0.0.0.0
++=+        conduitId=:rxCanFrameConduit2
+           remoteClientConduitHandle=0x570e59203ca0
+           localServerProxyConduit=0x3ac669b0
++=+ XLVIP-INFO: XlTlmMessageLayer::collectClientConnections(): Got all clients !
+@100 ns (SC time)+=+ INFO: ... got it!
+[0;34m
+//  Copyright Siemens 2022
+//  Innexis VSI Digital Twin Simulator
+//  This software and related documentation are proprietary
+//  and confidential to Siemens.
+//  release: v2025.2, Build: 04Jun2025
+
+[0;34m
+VSISim> run
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @900000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @1000000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @1100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @1200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @1300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @1400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @1500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @1600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @1700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @1800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @1900000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @2000000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @2100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @2200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @2300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @2400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @2500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @2600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @2700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @2800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @2900000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @3000000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @3100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @3200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @3300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @3400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @3500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @3600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @3700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @3800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @3900000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @4000000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @4100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @4200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @4300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @4400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @4500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @4600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @4700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @4800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @4900000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @5000000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @5100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @5200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @5300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @5400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @5500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @5600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @5700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @5800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @5900000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @6000000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @6100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @6200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @6300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @6400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @6500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @6600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @6700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @6800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @6900000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @7000000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @7100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @7200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @7300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @7400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @7500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @7600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @7700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @7800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @7900000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @8000000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @8100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @8200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @8300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @8400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @8500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @8600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @8700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @8800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @8900000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @9000000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @9100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @9200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @9300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @9400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @9500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @9600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @9700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @9800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @9900000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @10000000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @10100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @10200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @10300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @10400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @10500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @10600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @10700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @10800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @10900000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @11000000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @11100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @11200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @11300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @11400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @11500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @11600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @11700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @11800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @11900000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @12000000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @12100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @12200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @12300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @12400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @12500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @12600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @12700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @12800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @12900000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @13000000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @13100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @13200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @13300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @13400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @13500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @13600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @13700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @13800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @13900000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @14000000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @14100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @14200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @14300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @14400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @14500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @14600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @14700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @14800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @14900000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @15000000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @15100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @15200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @15300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @15400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @15500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @15600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @15700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @15800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @15900000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @16000000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @16100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @16200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @16300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @16400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @16500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @16600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @16700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @16800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @16900000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @17000000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @17100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @17200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @17300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @17400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @17500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @17600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @17700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @17800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @17900000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @18000000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @18100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @18200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @18300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @18400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @18500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @18600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @18700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @18800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @18900000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @19000000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @19100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @19200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @19300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @19400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @19500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @19600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @19700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @19800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @19900000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @20000000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @20100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @20200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @20300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @20400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @20500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @20600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @20700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @20800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @20900000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @21000000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @21100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @21200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @21300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @21400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @21500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @21600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @21700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @21800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @21900000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @22000000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @22100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @22200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @22300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @22400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @22500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @22600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @22700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @22800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @22900000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @23000000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @23100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @23200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @23300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @23400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @23500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @23600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @23700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @23800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @23900000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @24000000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @24100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @24200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @24300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @24400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @24500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @24600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @24700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @24800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @24900000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @25000000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @25100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @25200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @25300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @25400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @25500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @25600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @25700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @25800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @25900000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @26000000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @26100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @26200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @26300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @26400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @26500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @26600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @26700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @26800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @26900000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @27000000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @27100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @27200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @27300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @27400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @27500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @27600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @27700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @27800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @27900000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @28000000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @28100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @28200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @28300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @28400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @28500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @28600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @28700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @28800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @28900000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @29000000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @29100000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @29200000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @29300000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @29400000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @29500000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @29600000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @29700000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @29800000101 ns
+
+
+Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution required: id=10(xa) chosen over id=13(xd) @29900000101 ns
+
+
+Info: /OSCI/SystemC: Simulation stopped by user.
+
+Script done on 2026-03-19 00:33:21+00:00 [COMMAND_EXIT_CODE="0"]

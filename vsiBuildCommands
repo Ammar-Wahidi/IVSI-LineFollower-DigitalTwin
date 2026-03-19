@@ -1,0 +1,36 @@
+add component -type Python -name simulator
+add port -componentName simulator -name simulator -gateway python2DtCan
+
+add component -type Python -name controller
+add port -componentName controller -name controller -gateway python2DtCan
+
+add component -type Python -name visualizer
+add port -componentName visualizer -name visualizer -gateway python2DtCan
+
+define componentSignals -componentName simulator -signals "[x:double:output,y:double:output,theta:double:output,v:double:input,omega:double:input]"
+define componentSignals -componentName controller -signals "[x:double:input,y:double:input,theta:double:input,v:double:output,omega:double:output]"
+define componentSignals -componentName visualizer -signals "[x:double:input,y:double:input,theta:double:input]"
+
+define frame -id 10 -componentName simulator -portName simulator -signals [x:0:64]
+define frame -id 10 -componentName controller -portName controller -signals [x:0:64]
+define frame -id 10 -componentName visualizer -portName visualizer -signals [x:0:64]
+
+define frame -id 11 -componentName simulator -portName simulator -signals [y:0:64]
+define frame -id 11 -componentName controller -portName controller -signals [y:0:64]
+define frame -id 11 -componentName visualizer -portName visualizer -signals [y:0:64]
+
+define frame -id 12 -componentName simulator -portName simulator -signals [theta:0:64]
+define frame -id 12 -componentName controller -portName controller -signals [theta:0:64]
+define frame -id 12 -componentName visualizer -portName visualizer -signals [theta:0:64]
+
+define frame -id 13 -componentName simulator -portName simulator -signals [v:0:64]
+define frame -id 13 -componentName controller -portName controller -signals [v:0:64]
+
+define frame -id 14 -componentName simulator -portName simulator -signals [omega:0:64]
+define frame -id 14 -componentName controller -portName controller -signals [omega:0:64]
+
+set totalSimTime 30 s
+set simulationStep 0.1 s
+set workspaceDir .
+set digitalTwinName lineFollower
+generate

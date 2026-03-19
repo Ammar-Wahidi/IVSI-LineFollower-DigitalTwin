@@ -1,0 +1,3951 @@
+Script started on 2026-03-19 00:31:30+00:00 [TERM="xterm" TTY="/dev/pts/6" COLUMNS="80" LINES="24"]
+python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost"
++=+ XLVIP-INFO: XlTlmMessageLayer::connectToServer():
++=+    Connecting clientId=':remoteSession0' to 'server@localhost' ...
++=+    Successfully connected 'client :remoteSession0' to 'server@localhost'
++=+    Negotiated socket connection configuration
++=+        Use socket manager thread=FALSE
++=+        Use TCP_NODELAY=TRUE
++=+        Use UDP=FALSE
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession0
++=+        conduitId=:timeServerConduit0
+           localClientConduitHandle=0x650dfb4fbdb8
+           remoteServerProxyConduitHandle=0x3ac356a0
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession0
++=+        conduitId=:resetServerConduit0
+           localClientConduitHandle=0x650dfb5ef3c8
+           remoteServerProxyConduitHandle=0x3ac317e0
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession0
++=+        conduitId=:txConfigPort0
+           localClientConduitHandle=0x650dfb51e230
+           remoteServerProxyConduitHandle=0x3ac45070
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession0
++=+        conduitId=:rxConfigPort0
+           localClientConduitHandle=0x650dfb668e00
+           remoteServerProxyConduitHandle=0x3ac40c80
++=+ INFO: ... successfully connected to TLM FabricServer !
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession0
++=+        conduitId=:txCanFrameConduit0
+           localClientConduitHandle=0x650dfb669080
+           remoteServerProxyConduitHandle=0x3ac3a130
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession0
++=+        conduitId=:rxCanFrameConduit0
+           localClientConduitHandle=0x650dfb669300
+           remoteServerProxyConduitHandle=0x3ac38e90
+
++=simulator+=
+  VSI time: 50100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 1000050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 1100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 1200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 1300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 1400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 1500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 1600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 1700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 1800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 1900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 2000050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 2100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 2200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 2300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 2400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 2500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 2600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 2700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 2800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 2900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 3000050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 3100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 3200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 3300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 3400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 3500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 3600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 3700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 3800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 3900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 4000050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 4100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 4200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 4300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 4400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 4500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 4600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 4700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 4800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 4900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 5000050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 5100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 5200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 5300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 5400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 5500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 5600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 5700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 5800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 5900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 6000050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 6100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 6200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 6300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 6400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 6500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 6600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 6700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 6800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 6900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 7000050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 7100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 7200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 7300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 7400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 7500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 7600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 7700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 7800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 7900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 8000050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 8100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 8200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 8300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 8400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 8500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 8600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 8700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 8800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 8900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 9000050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 9100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 9200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 9300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 9400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 9500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 9600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 9700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 9800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 9900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 10000050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 10100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 10200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 10300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 10400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 10500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 10600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 10700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 10800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 10900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 11000050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 11100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 11200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 11300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 11400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 11500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 11600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 11700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 11800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 11900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 12000050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 12100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 12200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 12300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 12400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 12500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 12600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 12700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 12800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 12900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 13000050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 13100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 13200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 13300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 13400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 13500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 13600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 13700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 13800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 13900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 14000050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 14100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 14200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 14300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 14400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 14500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 14600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 14700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 14800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 14900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 15000050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 15100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 15200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 15300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 15400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 15500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 15600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 15700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 15800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 15900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 16000050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 16100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 16200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 16300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 16400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 16500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 16600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 16700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 16800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 16900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 17000050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 17100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 17200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 17300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 17400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 17500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 17600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 17700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 17800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 17900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 18000050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 18100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 18200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 18300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 18400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 18500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 18600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 18700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 18800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 18900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 19000050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 19100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 19200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 19300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 19400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 19500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 19600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 19700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 19800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 19900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 20000050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 20100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 20200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 20300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 20400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 20500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 20600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 20700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 20800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 20900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 21000050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 21100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 21200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 21300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 21400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 21500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 21600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 21700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 21800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 21900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 22000050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 22100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 22200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 22300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 22400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 22500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 22600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 22700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 22800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 22900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 23000050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 23100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 23200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 23300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 23400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 23500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 23600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 23700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 23800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 23900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 24000050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 24100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 24200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 24300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 24400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 24500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 24600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 24700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 24800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 24900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 25000050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 25100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 25200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 25300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 25400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 25500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 25600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 25700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 25800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 25900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 26000050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 26100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 26200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 26300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 26400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 26500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 26600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 26700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 26800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 26900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 27000050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 27100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 27200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 27300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 27400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 27500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 27600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 27700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 27800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 27900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 28000050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 28100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 28200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 28300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 28400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 28500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 28600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 28700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 28800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 28900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 29000050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 29100050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 29200050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 29300050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 29400050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 29500050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 29600050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 29700050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 29800050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
+
++=simulator+=
+  VSI time: 29900050100 ns
+  Inputs:
+	v = 0.0
+	omega = 0.0
+  Outputs:
+	x = 0
+	y = 0
+	theta = 0
+
+
+
++=+ XLVIP-INFO: XlTlmMessageLayer::disconnectFromServer():
++=+    Disconnecting this remote client from TLM fabric server:
++=+        clientId=:remoteSession0
+
+Script done on 2026-03-19 00:33:21+00:00 [COMMAND_EXIT_CODE="0"]

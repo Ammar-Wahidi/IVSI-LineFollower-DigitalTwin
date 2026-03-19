@@ -1,0 +1,3951 @@
+Script started on 2026-03-19 00:31:30+00:00 [TERM="xterm" TTY="/dev/pts/8" COLUMNS="80" LINES="24"]
+python3 .//src/controller/controller.py --domain="AF_UNIX" --server-url="localhost"
++=+ XLVIP-INFO: XlTlmMessageLayer::connectToServer():
++=+    Connecting clientId=':remoteSession1' to 'server@localhost' ...
++=+    Successfully connected 'client :remoteSession1' to 'server@localhost'
++=+    Negotiated socket connection configuration
++=+        Use socket manager thread=FALSE
++=+        Use TCP_NODELAY=TRUE
++=+        Use UDP=FALSE
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession1
++=+        conduitId=:timeServerConduit1
+           localClientConduitHandle=0x56e63819ef48
+           remoteServerProxyConduitHandle=0x3ac4cd20
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession1
++=+        conduitId=:resetServerConduit1
+           localClientConduitHandle=0x56e6382abe48
+           remoteServerProxyConduitHandle=0x3ac48f30
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession1
++=+        conduitId=:txConfigPort1
+           localClientConduitHandle=0x56e6381f5290
+           remoteServerProxyConduitHandle=0x3ac5b6a0
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession1
++=+        conduitId=:rxConfigPort1
+           localClientConduitHandle=0x56e6381e2cb0
+           remoteServerProxyConduitHandle=0x3ac57aa0
++=+ INFO: ... successfully connected to TLM FabricServer !
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession1
++=+        conduitId=:txCanFrameConduit1
+           localClientConduitHandle=0x56e6381612b0
+           remoteServerProxyConduitHandle=0x3ac51540
++=+ XLVIP-INFO: XlTlmMessageLayer::connect():
++=+    Successfully connected this remote client conduit into the TLM fabric server:
++=+        clientId=:remoteSession1
++=+        conduitId=:rxCanFrameConduit1
+           localClientConduitHandle=0x56e6382ac230
+           remoteServerProxyConduitHandle=0x3ac503d0
+
++=controller+=
+  VSI time: 40100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 1000040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 1100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 1200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 1300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 1400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 1500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 1600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 1700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 1800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 1900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 2000040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 2100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 2200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 2300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 2400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 2500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 2600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 2700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 2800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 2900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 3000040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 3100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 3200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 3300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 3400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 3500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 3600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 3700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 3800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 3900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 4000040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 4100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 4200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 4300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 4400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 4500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 4600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 4700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 4800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 4900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 5000040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 5100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 5200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 5300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 5400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 5500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 5600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 5700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 5800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 5900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 6000040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 6100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 6200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 6300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 6400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 6500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 6600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 6700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 6800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 6900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 7000040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 7100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 7200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 7300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 7400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 7500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 7600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 7700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 7800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 7900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 8000040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 8100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 8200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 8300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 8400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 8500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 8600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 8700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 8800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 8900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 9000040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 9100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 9200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 9300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 9400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 9500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 9600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 9700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 9800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 9900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 10000040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 10100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 10200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 10300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 10400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 10500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 10600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 10700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 10800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 10900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 11000040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 11100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 11200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 11300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 11400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 11500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 11600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 11700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 11800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 11900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 12000040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 12100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 12200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 12300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 12400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 12500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 12600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 12700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 12800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 12900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 13000040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 13100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 13200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 13300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 13400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 13500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 13600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 13700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 13800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 13900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 14000040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 14100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 14200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 14300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 14400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 14500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 14600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 14700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 14800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 14900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 15000040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 15100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 15200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 15300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 15400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 15500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 15600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 15700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 15800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 15900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 16000040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 16100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 16200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 16300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 16400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 16500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 16600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 16700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 16800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 16900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 17000040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 17100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 17200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 17300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 17400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 17500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 17600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 17700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 17800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 17900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 18000040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 18100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 18200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 18300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 18400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 18500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 18600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 18700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 18800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 18900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 19000040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 19100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 19200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 19300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 19400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 19500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 19600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 19700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 19800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 19900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 20000040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 20100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 20200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 20300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 20400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 20500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 20600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 20700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 20800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 20900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 21000040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 21100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 21200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 21300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 21400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 21500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 21600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 21700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 21800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 21900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 22000040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 22100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 22200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 22300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 22400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 22500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 22600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 22700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 22800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 22900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 23000040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 23100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 23200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 23300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 23400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 23500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 23600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 23700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 23800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 23900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 24000040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 24100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 24200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 24300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 24400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 24500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 24600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 24700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 24800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 24900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 25000040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 25100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 25200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 25300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 25400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 25500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 25600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 25700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 25800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 25900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 26000040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 26100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 26200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 26300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 26400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 26500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 26600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 26700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 26800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 26900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 27000040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 27100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 27200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 27300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 27400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 27500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 27600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 27700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 27800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 27900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 28000040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 28100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 28200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 28300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 28400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 28500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 28600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 28700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 28800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 28900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 29000040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 29100040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 29200040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 29300040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 29400040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 29500040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 29600040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 29700040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 29800040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
+
++=controller+=
+  VSI time: 29900040100 ns
+  Inputs:
+	x = 0.0
+	y = 0.0
+	theta = 0.0
+  Outputs:
+	v = 0
+	omega = 0
+
+
+
++=+ XLVIP-INFO: XlTlmMessageLayer::disconnectFromServer():
++=+    Disconnecting this remote client from TLM fabric server:
++=+        clientId=:remoteSession1
+
+Script done on 2026-03-19 00:33:21+00:00 [COMMAND_EXIT_CODE="0"]
