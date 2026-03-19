@@ -37,8 +37,8 @@ y = random.choice([
 ])
 theta = random.uniform(-0.3, 0.3)
 dt    = 0.1
-noise_level = 0
-disturbance_mag = 2
+noise_level = 0.2
+disturbance_mag = 0
 
 # End of user custom code region. Please don't edit beyond this point.
 class Simulator:

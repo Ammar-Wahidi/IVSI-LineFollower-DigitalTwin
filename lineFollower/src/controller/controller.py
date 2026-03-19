@@ -88,8 +88,9 @@ class Controller:
 				y     = self.mySignals.y
 				theta = self.mySignals.theta
 
-				y_ref     = 0.0
-				dy_dx     = 0.0
+				# Reference path (straight line y=0)
+				y_ref  = 2.0 * math.sin(0.3 * x)
+				dy_dx  = 2.0 * 0.3 * math.cos(0.3 * x)
 				desired_theta = math.atan2(dy_dx, 1.0)
 
 				# Errors

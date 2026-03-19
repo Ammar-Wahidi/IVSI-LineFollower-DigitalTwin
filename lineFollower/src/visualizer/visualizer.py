@@ -78,8 +78,8 @@ class Visualizer:
 				times.append(t)
 				robot_xs.append(x)
 				robot_ys.append(y)
-				errors.append(abs(y))  # lateral error = distance from y=0
-
+				y_ref = 2.0 * math.sin(0.3 * x)
+				errors.append(abs(y - y_ref))  # lateral error = distance from curved path
 				# End of user custom code region. Please don't edit beyond this point.
 
 				self.updateInternalVariables()
@@ -155,7 +155,7 @@ class Visualizer:
 		# Generate plots when simulation ends
 		if len(times) > 0:
 			path_x = [i * 0.1 for i in range(500)]
-			path_y = [0.0] * 500
+			path_y = [2.0 * math.sin(0.3 * px) for px in path_x]
 
 			fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))
 
@@ -174,7 +174,7 @@ class Visualizer:
 			ax2.grid(True)
 
 			plt.tight_layout()
-			plt.savefig('E3_dist2.png')
+			plt.savefig('E4_PID.png')
 			print("Plot saved!")
 
 			# Print KPIs
@@ -182,7 +182,7 @@ class Visualizer:
 			overshoot = max(errors)
 
 			# Settling time = first time error stays below 5% of max error
-			threshold = 0.05
+			threshold = 0.1 * overshoot
 			settling_time = times[-1]
 			for i in range(len(errors)):
 				if all(e < threshold for e in errors[i:]):
