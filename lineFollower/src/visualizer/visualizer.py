@@ -78,8 +78,12 @@ class Visualizer:
 				times.append(t)
 				robot_xs.append(x)
 				robot_ys.append(y)
+				# ── ERROR CALCULATION ────────────────────────────────────
+				# E1, E3 noise (straight path): errors.append(abs(y))
+				# E2, E3 disturbance, E4 (curved path):
 				y_ref = 2.0 * math.sin(0.3 * x)
-				errors.append(abs(y - y_ref))  # lateral error = distance from curved path
+				errors.append(abs(y - y_ref))  # ← curved path error
+				# errors.append(abs(y))        # ← uncomment for straight path (E1, E3 noise)
 				# End of user custom code region. Please don't edit beyond this point.
 
 				self.updateInternalVariables()
@@ -174,7 +178,16 @@ class Visualizer:
 			ax2.grid(True)
 
 			plt.tight_layout()
-			plt.savefig('E4_PID.png')
+			# ── FILENAME ─────────────────────────────────────────────
+			# E1: 'E1_set1_run1.png' ... 'E1_set5_run3.png'
+			# E2: 'E2_curved_run1.png' ... 'E2_curved_run3.png'
+			# E3a: 'E3_noise0.05_run1.png'
+			# E3b: 'E3_noise0.2_run1.png'
+			# E3c: 'E3_dist0.5_run1.png'
+			# E3d: 'E3_dist2.0_run1.png'
+			# E4 PD:  'E4_PD.png'
+			# E4 PID: 'E4_PID.png'
+			plt.savefig('E4_PID.png')   # ← CHANGE THIS per experiment
 			print("Plot saved!")
 
 			# Print KPIs

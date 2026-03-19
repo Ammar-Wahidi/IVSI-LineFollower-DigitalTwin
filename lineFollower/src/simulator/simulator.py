@@ -30,17 +30,32 @@ class MySignals:
 import random
 import math
 
+# Random spawn — used in ALL experiments (E1, E2, E3, E4)
 x     = random.uniform(-0.5, 0.5)
 y = random.choice([
-    random.uniform(0.25, 0.5),   # positive side
-    random.uniform(-0.5, -0.25)  # negative side
+    random.uniform(0.25, 0.5),    # positive side
+    random.uniform(-0.5, -0.25)   # negative side
 ])
 theta = random.uniform(-0.3, 0.3)
 dt    = 0.1
-noise_level = 0.2
-disturbance_mag = 0
 
+# ── NOISE LEVEL ──────────────────────────────────────────
+# E1 (Gain Sweep):        noise_level = 0.0
+# E2 (Curved Path):       noise_level = 0.0
+# E3a (Low Noise):        noise_level = 0.05
+# E3b (High Noise):       noise_level = 0.2
+# E3c (Low Disturbance):  noise_level = 0.0
+# E3d (High Disturbance): noise_level = 0.0
+# E4 (PD vs PID):         noise_level = 0.2
+noise_level = 0.2   # ← CHANGE THIS per experiment
+
+# ── DISTURBANCE MAGNITUDE ────────────────────────────────
+# E1, E2, E4:             disturbance_mag = 0.0
+# E3c (Low Disturbance):  disturbance_mag = 0.5
+# E3d (High Disturbance): disturbance_mag = 2.0
+disturbance_mag = 0.0   # ← CHANGE THIS per experiment
 # End of user custom code region. Please don't edit beyond this point.
+
 class Simulator:
 
 	def __init__(self, args):

@@ -30,8 +30,16 @@ class MySignals:
 
 path = [(i * 0.1, 0.0) for i in range(500)]
 
-Kp = 2.0
-Ki = 0.1
+# ── PID GAINS ────────────────────────────────────────────
+# E1 Set 1 (worst):  Kp=0.2,  Ki=0.0,  Kd=0.01
+# E1 Set 2:          Kp=0.5,  Ki=0.02, Kd=0.05
+# E1 Set 3:          Kp=1.0,  Ki=0.05, Kd=0.08
+# E1 Set 4:          Kp=1.5,  Ki=0.05, Kd=0.10
+# E1 Set 5 (best):   Kp=2.0,  Ki=0.1,  Kd=0.15  ← used for E2, E3, E4
+# E4 PD only:        Kp=2.0,  Ki=0.0,  Kd=0.15  (Ki=0 removes integral)
+# E4 PID:            Kp=2.0,  Ki=0.1,  Kd=0.15
+Kp = 2.0      # ← CHANGE for E1 gain sweep
+Ki = 0.1      # ← SET TO 0.0 for E4 PD, 0.1 for E4 PID
 Kd = 0.15
 Kp_head = 2.5
 
@@ -88,9 +96,22 @@ class Controller:
 				y     = self.mySignals.y
 				theta = self.mySignals.theta
 
-				# Reference path (straight line y=0)
-				y_ref  = 2.0 * math.sin(0.3 * x)
-				dy_dx  = 2.0 * 0.3 * math.cos(0.3 * x)
+				# ── REFERENCE PATH ───────────────────────────────────────
+				# E1 (Straight path, Gain Sweep):
+				#   y_ref = 0.0
+				#   dy_dx = 0.0
+				# E2 (Curved path — sine wave):
+				#   y_ref = 2.0 * math.sin(0.3 * x)
+				#   dy_dx = 2.0 * 0.3 * math.cos(0.3 * x)
+				# E3 (Noise — uses same path as experiment focus):
+				#   straight for noise levels, curved for disturbance
+				# E4 (PD vs PID — curved path with noise):
+				#   y_ref = 2.0 * math.sin(0.3 * x)
+				#   dy_dx = 2.0 * 0.3 * math.cos(0.3 * x)
+				y_ref  = 2.0 * math.sin(0.3 * x)       # ← E2, E3, E4 (curved)
+				dy_dx  = 2.0 * 0.3 * math.cos(0.3 * x) # ← E2, E3, E4 (curved)
+				# y_ref = 0.0   # ← uncomment for E1 (straight)
+				# dy_dx = 0.0   # ← uncomment for E1 (straight)
 				desired_theta = math.atan2(dy_dx, 1.0)
 
 				# Errors
