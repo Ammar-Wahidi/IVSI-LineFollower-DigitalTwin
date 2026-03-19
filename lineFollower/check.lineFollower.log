@@ -1,4 +1,4 @@
-Script started on 2026-03-19 13:17:25+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+Script started on 2026-03-19 14:55:24+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
 make[1]: Entering directory '/home/ubuntu/IVSI-LineFollower-DigitalTwin/lineFollower'
 ././FabricServer\
 	--domain=AF_UNIX --cmdFile=
@@ -16,7 +16,7 @@ In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
 
 Warning: (W505) object already exists: fabricServer.uvmc_registry.:resetServerConduit0. Latter declaration will be renamed to fabricServer.uvmc_registry.:resetServerConduit0_1
 In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
-XLVIP-INFO: XlSyscTlmResetServer::connect() uvmc_connect<>() returnedProxy=0x39fd6cf0
+XLVIP-INFO: XlSyscTlmResetServer::connect() uvmc_connect<>() returnedProxy=0x35bccf0
 Connecting an SC-side proxy port for 'fabricServer.timeServer.advanceTargetSocket' with lookup string ':timeServerConduit0' for later connection with SV
 
 Warning: (W505) object already exists: fabricServer.uvmc_registry.:timeServerConduit0. Latter declaration will be renamed to fabricServer.uvmc_registry.:timeServerConduit0_0
@@ -60,7 +60,7 @@ In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
 
 Warning: (W505) object already exists: fabricServer.uvmc_registry.:resetServerConduit1. Latter declaration will be renamed to fabricServer.uvmc_registry.:resetServerConduit1_1
 In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
-XLVIP-INFO: XlSyscTlmResetServer::connect() uvmc_connect<>() returnedProxy=0x39fef150
+XLVIP-INFO: XlSyscTlmResetServer::connect() uvmc_connect<>() returnedProxy=0x35d5150
 Connecting an SC-side proxy port for 'fabricServer.imeServer.advanceTargetSocket' with lookup string ':timeServerConduit1' for later connection with SV
 
 Warning: (W505) object already exists: fabricServer.uvmc_registry.:timeServerConduit1. Latter declaration will be renamed to fabricServer.uvmc_registry.:timeServerConduit1_0
@@ -104,7 +104,7 @@ In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
 
 Warning: (W505) object already exists: fabricServer.uvmc_registry.:resetServerConduit2. Latter declaration will be renamed to fabricServer.uvmc_registry.:resetServerConduit2_1
 In file: ../../../src/sysc/kernel/sc_object_manager.cpp:153
-XLVIP-INFO: XlSyscTlmResetServer::connect() uvmc_connect<>() returnedProxy=0x3a005330
+XLVIP-INFO: XlSyscTlmResetServer::connect() uvmc_connect<>() returnedProxy=0x35eb330
 Connecting an SC-side proxy port for 'fabricServer.meServer.advanceTargetSocket' with lookup string ':timeServerConduit2' for later connection with SV
 
 Warning: (W505) object already exists: fabricServer.uvmc_registry.:timeServerConduit2. Latter declaration will be renamed to fabricServer.uvmc_registry.:timeServerConduit2_0
@@ -176,110 +176,110 @@ Info: XLVIP-INFO: TLM fabric backplane license checkout successful.
 +=+    Received remote client ::connect() request:
            clientUrl=0.0.0.0
 +=+        conduitId=:timeServerConduit0
-           remoteClientConduitHandle=0x558a0b57d9a8
-           localServerProxyConduit=0x39fdd6a0
+           remoteClientConduitHandle=0x5e57b5f44128
+           localServerProxyConduit=0x35c36a0
 +=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
 +=+    Received remote client ::connect() request:
            clientUrl=0.0.0.0
 +=+        conduitId=:resetServerConduit0
-           remoteClientConduitHandle=0x558a0b584ae8
-           localServerProxyConduit=0x39fd97a0
+           remoteClientConduitHandle=0x5e57b5f54a58
+           localServerProxyConduit=0x35bf7a0
 +=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
 +=+    Received remote client ::connect() request:
            clientUrl=0.0.0.0
 +=+        conduitId=:txConfigPort0
-           remoteClientConduitHandle=0x558a0b42ea00
-           localServerProxyConduit=0x39fed070
+           remoteClientConduitHandle=0x5e57b5e03a00
+           localServerProxyConduit=0x35d3070
 +=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
 +=+    Received remote client ::connect() request:
            clientUrl=0.0.0.0
 +=+        conduitId=:rxConfigPort0
-           remoteClientConduitHandle=0x558a0b57e200
-           localServerProxyConduit=0x39fe8c80
+           remoteClientConduitHandle=0x5e57b5f5bb90
+           localServerProxyConduit=0x35cec80
 +=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
 +=+    Received remote client ::connect() request:
            clientUrl=0.0.0.0
 +=+        conduitId=:txCanFrameConduit0
-           remoteClientConduitHandle=0x558a0b4db530
-           localServerProxyConduit=0x39fe2130
+           remoteClientConduitHandle=0x5e57b5eaaca0
+           localServerProxyConduit=0x35c8130
 +=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
 +=+    Received remote client ::connect() request:
            clientUrl=0.0.0.0
 +=+        conduitId=:rxCanFrameConduit0
-           remoteClientConduitHandle=0x558a0b589bc0
-           localServerProxyConduit=0x39fe0e90
+           remoteClientConduitHandle=0x5e57b5f60c70
+           localServerProxyConduit=0x35c6e90
 +=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
 +=+    Received remote client ::connect() request:
            clientUrl=0.0.0.0
 +=+        conduitId=:timeServerConduit1
-           remoteClientConduitHandle=0x55d2846fe2e8
-           localServerProxyConduit=0x39ff4d20
+           remoteClientConduitHandle=0x5ccf2f7cb2e8
+           localServerProxyConduit=0x35dad20
 +=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
 +=+    Received remote client ::connect() request:
            clientUrl=0.0.0.0
 +=+        conduitId=:resetServerConduit1
-           remoteClientConduitHandle=0x55d28470c488
-           localServerProxyConduit=0x39ff0f30
+           remoteClientConduitHandle=0x5ccf2f7d9488
+           localServerProxyConduit=0x35d6f30
 +=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
 +=+    Received remote client ::connect() request:
            clientUrl=0.0.0.0
 +=+        conduitId=:txConfigPort1
-           remoteClientConduitHandle=0x55d2845afa80
-           localServerProxyConduit=0x3a0036a0
+           remoteClientConduitHandle=0x5ccf2f67ca80
+           localServerProxyConduit=0x35e96a0
 +=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
 +=+    Received remote client ::connect() request:
            clientUrl=0.0.0.0
 +=+        conduitId=:rxConfigPort1
-           remoteClientConduitHandle=0x55d2846f4a70
-           localServerProxyConduit=0x39fffaa0
+           remoteClientConduitHandle=0x5ccf2f7c1a70
+           localServerProxyConduit=0x35e5aa0
 +=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
 +=+    Received remote client ::connect() request:
            clientUrl=0.0.0.0
 +=+        conduitId=:txCanFrameConduit1
-           remoteClientConduitHandle=0x55d28470c610
-           localServerProxyConduit=0x39ff9540
+           remoteClientConduitHandle=0x5ccf2f7d9610
+           localServerProxyConduit=0x35df540
 +=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
 +=+    Received remote client ::connect() request:
            clientUrl=0.0.0.0
 +=+        conduitId=:rxCanFrameConduit1
-           remoteClientConduitHandle=0x55d28470c840
-           localServerProxyConduit=0x39ff83d0
+           remoteClientConduitHandle=0x5ccf2f7d9840
+           localServerProxyConduit=0x35de3d0
 +=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
 +=+    Received remote client ::connect() request:
            clientUrl=0.0.0.0
 +=+        conduitId=:timeServerConduit2
-           remoteClientConduitHandle=0x5672fd5b89f8
-           localServerProxyConduit=0x3a00aae0
+           remoteClientConduitHandle=0x5cc4de2e11f8
+           localServerProxyConduit=0x35f0ae0
 +=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
 +=+    Received remote client ::connect() request:
            clientUrl=0.0.0.0
 +=+        conduitId=:resetServerConduit2
-           remoteClientConduitHandle=0x5672fd81e578
-           localServerProxyConduit=0x3a007110
+           remoteClientConduitHandle=0x5cc4de5fb678
+           localServerProxyConduit=0x35ed110
 +=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
 +=+    Received remote client ::connect() request:
            clientUrl=0.0.0.0
 +=+        conduitId=:txConfigPort2
-           remoteClientConduitHandle=0x5672fd6ccb00
-           localServerProxyConduit=0x3a019830
+           remoteClientConduitHandle=0x5cc4de4ab1e0
+           localServerProxyConduit=0x35ff830
 +=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
 +=+    Received remote client ::connect() request:
            clientUrl=0.0.0.0
 +=+        conduitId=:rxConfigPort2
-           remoteClientConduitHandle=0x5672fd502bf0
-           localServerProxyConduit=0x3a015c30
+           remoteClientConduitHandle=0x5cc4de286ab0
+           localServerProxyConduit=0x35fbc30
 +=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
 +=+    Received remote client ::connect() request:
            clientUrl=0.0.0.0
 +=+        conduitId=:txCanFrameConduit2
-           remoteClientConduitHandle=0x5672fd6c12f0
-           localServerProxyConduit=0x3a00fb20
+           remoteClientConduitHandle=0x5cc4de49fc50
+           localServerProxyConduit=0x35f5b20
 +=+ XLVIP-INFO: XlRemoteTlmConduit::ipcServiceLoop():
 +=+    Received remote client ::connect() request:
            clientUrl=0.0.0.0
 +=+        conduitId=:rxCanFrameConduit2
-           remoteClientConduitHandle=0x5672fd4a9d60
-           localServerProxyConduit=0x3a00e9b0
+           remoteClientConduitHandle=0x5cc4de0b16e0
+           localServerProxyConduit=0x35f49b0
 +=+ XLVIP-INFO: XlTlmMessageLayer::collectClientConnections(): Got all clients !
 @100 ns (SC time)+=+ INFO: ... got it!
 [0;34m
@@ -6295,4 +6295,4 @@ Info: CAN-INFO: XlTlmCanBusAt (fabricServer.canTlmBus): Arbitration resolution r
 Info: /OSCI/SystemC: Simulation stopped by user.
 make[1]: Leaving directory '/home/ubuntu/IVSI-LineFollower-DigitalTwin/lineFollower'
 
-Script done on 2026-03-19 13:18:02+00:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2026-03-19 14:55:51+00:00 [COMMAND_EXIT_CODE="0"]

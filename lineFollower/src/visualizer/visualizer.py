@@ -174,7 +174,7 @@ class Visualizer:
 			ax2.grid(True)
 
 			plt.tight_layout()
-			plt.savefig('E1_set__.png')
+			plt.savefig('E3_dist2.png')
 			print("Plot saved!")
 
 			# Print KPIs
@@ -182,7 +182,7 @@ class Visualizer:
 			overshoot = max(errors)
 
 			# Settling time = first time error stays below 5% of max error
-			threshold = 0.1 * overshoot
+			threshold = 0.05
 			settling_time = times[-1]
 			for i in range(len(errors)):
 				if all(e < threshold for e in errors[i:]):

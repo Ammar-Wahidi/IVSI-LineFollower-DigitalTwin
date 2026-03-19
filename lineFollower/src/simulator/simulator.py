@@ -31,10 +31,15 @@ import random
 import math
 
 x     = random.uniform(-0.5, 0.5)
-y     = random.uniform(-0.5, 0.5)
+y = random.choice([
+    random.uniform(0.25, 0.5),   # positive side
+    random.uniform(-0.5, -0.25)  # negative side
+])
 theta = random.uniform(-0.3, 0.3)
 dt    = 0.1
-noise_level = 0.0  
+noise_level = 0
+disturbance_mag = 2
+
 # End of user custom code region. Please don't edit beyond this point.
 class Simulator:
 
@@ -88,6 +93,10 @@ class Simulator:
 				# Add noise 
 				x += noise_level * random.gauss(0, 1) * dt
 				y += noise_level * random.gauss(0, 1) * dt
+
+				# Add disturbance (sudden angular push)
+				if random.random() < 0.005:
+					theta += disturbance_mag * random.choice([-1, 1])
 
 				self.mySignals.x     = x
 				self.mySignals.y     = y
