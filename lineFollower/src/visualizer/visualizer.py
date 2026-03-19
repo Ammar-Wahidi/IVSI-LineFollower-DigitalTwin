@@ -154,8 +154,8 @@ class Visualizer:
 		# Start of user custom code region. Please apply edits only within these regions:  Protocol's callback function
 		# Generate plots when simulation ends
 		if len(times) > 0:
-			path_x = [i * 0.1 for i in range(50)]
-			path_y = [0.0] * 50
+			path_x = [i * 0.1 for i in range(500)]
+			path_y = [0.0] * 500
 
 			fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))
 
@@ -174,7 +174,7 @@ class Visualizer:
 			ax2.grid(True)
 
 			plt.tight_layout()
-			plt.savefig('E1_set2_run1.png')
+			plt.savefig('E1_set__.png')
 			print("Plot saved!")
 
 			# Print KPIs

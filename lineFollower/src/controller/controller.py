@@ -28,20 +28,19 @@ class MySignals:
 
 # Start of user custom code region. Please apply edits only within these regions:  Global Variables & Definitions
 
-path = [(i * 0.1, 0.0) for i in range(50)]
+path = [(i * 0.1, 0.0) for i in range(500)]
 
-Kp = 0.7
-Ki = 0.0
-Kd = 0.03
+Kp = 2.0
+Ki = 0.1
+Kd = 0.15
+Kp_head = 2.5
 
-integral   = 0.0
-prev_error = 0.0
-dt         = 0.1
+int_lat_err = 0.0
+prev_lat_err = 0.0
+dt = 0.1
 
 def wrap_angle(a):
-    while a > math.pi:  a -= 2*math.pi
-    while a < -math.pi: a += 2*math.pi
-    return a
+    return (a + math.pi) % (2 * math.pi) - math.pi
 
 # End of user custom code region. Please don't edit beyond this point.
 class Controller:
@@ -83,46 +82,36 @@ class Controller:
 			while(vsiCommonPythonApi.getSimulationTimeInNs() < self.totalSimulationTime):
 
 				# Start of user custom code region. Please apply edits only within these regions:  Inside the while loop
-				global integral, prev_error
+				global int_lat_err, prev_lat_err
 
-				# Read robot position from IVSI
 				x     = self.mySignals.x
 				y     = self.mySignals.y
 				theta = self.mySignals.theta
 
-				# Find nearest point on path
-				min_dist = float('inf')
-				nearest_idx = 0
-				for i, (px, py) in enumerate(path):
-					d = math.sqrt((x - px)**2 + (y - py)**2)
-					if d < min_dist:
-						min_dist = d
-						nearest_idx = i
+				# Reference path (straight line y=0)
+				y_ref     = 0.0
+				dy_dx     = 0.0
+				desired_theta = math.atan2(dy_dx, 1.0)
 
-				# Lateral error = distance from path
-				lateral_error = y  # for straight path y=0, error is just y
+				# Errors
+				lat_err     = y_ref - y
+				heading_err = wrap_angle(desired_theta - theta)
 
-				# Heading error
-				desired_theta = 0.0  # straight path points in x direction
-				heading_error = desired_theta - theta
+				# PID
+				d_lat        = (lat_err - prev_lat_err) / dt
+				int_lat_err += lat_err * dt
+				int_lat_err  = max(-5.0, min(5.0, int_lat_err))
+				prev_lat_err = lat_err
 
-				# PID calculation
-				error      = lateral_error
-				integral  += error * dt
-				derivative = (error - prev_error) / dt
-				prev_error = error
+				# Control output
+				omega = (Kp * lat_err +
+						Ki * int_lat_err +
+						Kd * d_lat +
+						Kp_head * heading_err +
+						dy_dx * 0.5)
 
-				# wrap theta to keep it between -pi and pi
-				theta = wrap_angle(theta)
-				desired_theta = wrap_angle(0.0 + 0.8 * error)
-				e_theta = wrap_angle(desired_theta - theta)
+				v = 0.3 * max(0.3, 1.0 - abs(heading_err))
 
-				omega = -(Kp * e_theta)
-				if omega > 1.0:  omega = 1.0
-				if omega < -1.0: omega = -1.0
-				v = 0.3 * max(0.2, 1.0 - abs(error))
-
-				# Send to IVSI
 				self.mySignals.v     = v
 				self.mySignals.omega = omega
 				# End of user custom code region. Please don't edit beyond this point.
