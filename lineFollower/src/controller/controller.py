@@ -28,18 +28,20 @@ class MySignals:
 
 # Start of user custom code region. Please apply edits only within these regions:  Global Variables & Definitions
 
-# Straight path: y=0 from x=0 to x=5
 path = [(i * 0.1, 0.0) for i in range(50)]
 
-# PID gains — change these for each E1 experiment
-Kp = 2.0
-Ki = 0.1
-Kd = 0.3
+Kp = 1.0
+Ki = 0.0
+Kd = 0.05
 
-# PID memory
 integral   = 0.0
 prev_error = 0.0
 dt         = 0.1
+
+def wrap_angle(a):
+    while a > math.pi:  a -= 2*math.pi
+    while a < -math.pi: a += 2*math.pi
+    return a
 
 # End of user custom code region. Please don't edit beyond this point.
 class Controller:
@@ -110,8 +112,15 @@ class Controller:
 				derivative = (error - prev_error) / dt
 				prev_error = error
 
-				omega = Kp * error + Ki * integral + Kd * derivative
-				v     = 0.3  # constant forward speed
+				# wrap theta to keep it between -pi and pi
+				theta = wrap_angle(theta)
+				desired_theta = wrap_angle(0.0 + 0.8 * error)
+				e_theta = wrap_angle(desired_theta - theta)
+
+				omega = -(Kp * e_theta)
+				if omega > 1.0:  omega = 1.0
+				if omega < -1.0: omega = -1.0
+				v = 0.3 * max(0.2, 1.0 - abs(error))
 
 				# Send to IVSI
 				self.mySignals.v     = v

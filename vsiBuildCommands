@@ -29,8 +29,8 @@ define frame -id 13 -componentName controller -portName controller -signals [v:0
 define frame -id 14 -componentName simulator -portName simulator -signals [omega:0:64]
 define frame -id 14 -componentName controller -portName controller -signals [omega:0:64]
 
-set totalSimTime 30 s
+set totalSimTime 60 s
 set simulationStep 0.1 s
 set workspaceDir .
 set digitalTwinName lineFollower
-generate
+generate -overwrite

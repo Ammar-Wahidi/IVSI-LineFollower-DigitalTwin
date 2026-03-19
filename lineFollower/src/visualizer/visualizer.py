@@ -79,6 +79,7 @@ class Visualizer:
 				robot_xs.append(x)
 				robot_ys.append(y)
 				errors.append(abs(y))  # lateral error = distance from y=0
+
 				# End of user custom code region. Please don't edit beyond this point.
 
 				self.updateInternalVariables()
@@ -180,6 +181,7 @@ class Visualizer:
 			print(f"Max error (overshoot):     {max(errors):.4f} m")
 			print(f"Final error (steady state):{errors[-1]:.4f} m")
 			print(f"Simulation time:           {times[-1]:.1f} s")
+
 		# End of user custom code region. Please don't edit beyond this point.
 
 
