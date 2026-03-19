@@ -273,10 +273,7 @@ disturbance_mag = 2.0  # E3 — high disturbance
 
 ## 🎬 Screencast Demo
 
-<!-- Add your screencast video link or embed here -->
 
-> **[📹 Click here to watch the simulation demo](#)**  
-> *2-3 minute screencast showing the 3 VSI clients running, signals exchanging over the CAN backplane, and trajectory plots being generated.*
 
 ---
 
