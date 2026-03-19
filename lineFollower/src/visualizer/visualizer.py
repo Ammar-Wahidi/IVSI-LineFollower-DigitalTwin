@@ -174,13 +174,28 @@ class Visualizer:
 			ax2.grid(True)
 
 			plt.tight_layout()
-			plt.savefig('results_Kp2.0_Ki0.1_Kd0.3.png')
+			plt.savefig('E1_set2_run1.png')
 			print("Plot saved!")
 
 			# Print KPIs
-			print(f"Max error (overshoot):     {max(errors):.4f} m")
-			print(f"Final error (steady state):{errors[-1]:.4f} m")
-			print(f"Simulation time:           {times[-1]:.1f} s")
+			# Overshoot
+			overshoot = max(errors)
+
+			# Settling time = first time error stays below 5% of max error
+			threshold = 0.1 * overshoot
+			settling_time = times[-1]
+			for i in range(len(errors)):
+				if all(e < threshold for e in errors[i:]):
+					settling_time = times[i]
+					break
+
+			# Steady state error = average of last 10% of errors
+			last_10 = errors[int(0.9*len(errors)):]
+			ss_error = sum(last_10) / len(last_10)
+
+			print(f"Max error (overshoot):     {overshoot:.4f} m")
+			print(f"Settling time:             {settling_time:.1f} s")
+			print(f"Final error (steady state):{ss_error:.4f} m")
 
 		# End of user custom code region. Please don't edit beyond this point.
 

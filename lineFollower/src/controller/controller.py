@@ -30,9 +30,9 @@ class MySignals:
 
 path = [(i * 0.1, 0.0) for i in range(50)]
 
-Kp = 1.0
+Kp = 0.7
 Ki = 0.0
-Kd = 0.05
+Kd = 0.03
 
 integral   = 0.0
 prev_error = 0.0

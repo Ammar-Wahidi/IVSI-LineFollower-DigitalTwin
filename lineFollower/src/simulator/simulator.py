@@ -85,7 +85,7 @@ class Simulator:
 				y     += v * math.sin(theta) * dt
 				theta += omega * dt
 
-				# Add noise (for E3, change noise_level to 0.1 or 0.5)
+				# Add noise 
 				x += noise_level * random.gauss(0, 1) * dt
 				y += noise_level * random.gauss(0, 1) * dt
 
