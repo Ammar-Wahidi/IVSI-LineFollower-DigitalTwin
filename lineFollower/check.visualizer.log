@@ -1,4 +1,5 @@
-Script started on 2026-03-19 00:31:31+00:00 [TERM="xterm" TTY="/dev/pts/10" COLUMNS="80" LINES="24"]
+Script started on 2026-03-19 09:01:50+00:00 [TERM="xterm" TTY="/dev/pts/7" COLUMNS="80" LINES="24"]
+make[1]: Entering directory '/home/ubuntu/IVSI-LineFollower-DigitalTwin/lineFollower'
 python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localhost"
 +=+ XLVIP-INFO: XlTlmMessageLayer::connectToServer():
 +=+    Connecting clientId=':remoteSession2' to 'server@localhost' ...
@@ -11,39 +12,39 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=+    Successfully connected this remote client conduit into the TLM fabric server:
 +=+        clientId=:remoteSession2
 +=+        conduitId=:timeServerConduit2
-           localClientConduitHandle=0x570e59102f48
-           remoteServerProxyConduitHandle=0x3ac62ae0
+           localClientConduitHandle=0x5de7ce8c9998
+           remoteServerProxyConduitHandle=0x1fc07ae0
 +=+ XLVIP-INFO: XlTlmMessageLayer::connect():
 +=+    Successfully connected this remote client conduit into the TLM fabric server:
 +=+        clientId=:remoteSession2
 +=+        conduitId=:resetServerConduit2
-           localClientConduitHandle=0x570e591a9f58
-           remoteServerProxyConduitHandle=0x3ac5f110
+           localClientConduitHandle=0x5de7cec3ed68
+           remoteServerProxyConduitHandle=0x1fc04110
 +=+ XLVIP-INFO: XlTlmMessageLayer::connect():
 +=+    Successfully connected this remote client conduit into the TLM fabric server:
 +=+        clientId=:remoteSession2
 +=+        conduitId=:txConfigPort2
-           localClientConduitHandle=0x570e590c52b0
-           remoteServerProxyConduitHandle=0x3ac71830
+           localClientConduitHandle=0x5de7ceb1d500
+           remoteServerProxyConduitHandle=0x1fc16830
 +=+ XLVIP-INFO: XlTlmMessageLayer::connect():
 +=+    Successfully connected this remote client conduit into the TLM fabric server:
 +=+        clientId=:remoteSession2
 +=+        conduitId=:rxConfigPort2
-           localClientConduitHandle=0x570e59146cb0
-           remoteServerProxyConduitHandle=0x3ac6dc30
+           localClientConduitHandle=0x5de7ce5f4550
+           remoteServerProxyConduitHandle=0x1fc12c30
 +=+ INFO: ... successfully connected to TLM FabricServer !
 +=+ XLVIP-INFO: XlTlmMessageLayer::connect():
 +=+    Successfully connected this remote client conduit into the TLM fabric server:
 +=+        clientId=:remoteSession2
 +=+        conduitId=:txCanFrameConduit2
-           localClientConduitHandle=0x570e59203a90
-           remoteServerProxyConduitHandle=0x3ac67b20
+           localClientConduitHandle=0x5de7ceaed930
+           remoteServerProxyConduitHandle=0x1fc0cb20
 +=+ XLVIP-INFO: XlTlmMessageLayer::connect():
 +=+    Successfully connected this remote client conduit into the TLM fabric server:
 +=+        clientId=:remoteSession2
 +=+        conduitId=:rxCanFrameConduit2
-           localClientConduitHandle=0x570e59203ca0
-           remoteServerProxyConduitHandle=0x3ac669b0
+           localClientConduitHandle=0x5de7ce5ba8d0
+           remoteServerProxyConduitHandle=0x1fc0b9b0
 
 +=visualizer+=
   VSI time: 100 ns
@@ -58,9 +59,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = -0.05823650435866179
+	y = -0.49171368920016467
+	theta = -0.1250315610296876
 
 
 
@@ -68,9 +69,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = -0.05823650435866179
+	y = -0.49171368920016467
+	theta = -0.1250315610296876
 
 
 
@@ -78,9 +79,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = -0.02847069240249565
+	y = -0.49545487064325944
+	theta = -0.1250315610296876
 
 
 
@@ -88,9 +89,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.0012951195536704888
+	y = -0.4991960520863542
+	theta = -0.1250315610296876
 
 
 
@@ -98,9 +99,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.031060931509836628
+	y = -0.502937233529449
+	theta = -0.3713801193189701
 
 
 
@@ -108,9 +109,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.05901575307199543
+	y = -0.5138242878338906
+	theta = -0.4707062845374034
 
 
 
@@ -118,9 +119,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.08575319905001633
+	y = -0.5274297640318196
+	theta = -0.5723984953480272
 
 
 
@@ -128,9 +129,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.11097132654432687
+	y = -0.5436792577371847
+	theta = -0.6753381384993564
 
 
 
@@ -138,9 +139,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.13438619468423027
+	y = -0.5624340957794323
+	theta = -0.779528955172834
 
 
 
@@ -148,9 +149,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 1000000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.15572353674210823
+	y = -0.5835224298507882
+	theta = -0.888554768853438
 
 
 
@@ -158,9 +159,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 1100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.1746395692566452
+	y = -0.6068072685641867
+	theta = -1.0016446341057057
 
 
 
@@ -168,9 +169,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 1200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.19080709917367508
+	y = -0.6320780219439722
+	theta = -1.1193212826090144
 
 
 
@@ -178,9 +179,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 1300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.20389589696477717
+	y = -0.6590721578327841
+	theta = -1.2420629361176168
 
 
 
@@ -188,9 +189,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 1400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.21358123204674667
+	y = -0.6874657184469439
+	theta = -1.3703058276790736
 
 
 
@@ -198,9 +199,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 1500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.21955573290675062
+	y = -0.7168647888314614
+	theta = -1.5044714456443873
 
 
 
@@ -208,9 +209,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 1600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.22154402084969924
+	y = -0.7467988281689101
+	theta = -1.644919066707518
 
 
 
@@ -218,9 +219,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 1700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.21932237431161405
+	y = -0.7767164531859433
+	theta = -1.7919416018589518
 
 
 
@@ -228,9 +229,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 1800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.21274195978973326
+	y = -0.805985859478525
+	theta = -1.945750142269269
 
 
 
@@ -238,9 +239,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 1900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.20175507318046365
+	y = -0.8339015955898127
+	theta = -2.1064570144764283
 
 
 
@@ -248,9 +249,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 2000000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.18644279427050506
+	y = -0.8596995434652472
+	theta = -2.274057984065126
 
 
 
@@ -258,9 +259,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 2100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.16704152699531716
+	y = -0.882581650626012
+	theta = -2.448414270814291
 
 
 
@@ -268,9 +269,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 2200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.14396495807585588
+	y = -0.9017512089648302
+	theta = -2.6292359590641157
 
 
 
@@ -278,9 +279,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 2300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.11781721006232326
+	y = -0.9164581894102106
+	theta = -2.8160685950773994
 
 
 
@@ -288,9 +289,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 2400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.08939271226817214
+	y = -0.9260523504027257
+	theta = -3.0082851837384794
 
 
 
@@ -298,9 +299,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 2500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.05965888096942123
+	y = -0.9300397400623177
+	theta = -3.2050860232679375
 
 
 
@@ -308,9 +309,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 2600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.029719331776734283
+	y = -0.9281362185524108
+	theta = -3.40550876102754
 
 
 
@@ -318,9 +319,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 2700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.0007580573139225437
+	y = -0.9203103268147436
+	theta = -3.6084505796975974
 
 
 
@@ -328,9 +329,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 2800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = -0.026031549295169532
+	y = -0.9068078463859449
+	theta = -3.8127034370807014
 
 
 
@@ -338,9 +339,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 2900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = -0.049525491339719896
+	y = -0.8881521585881899
+	theta = -4.017001780735909
 
 
 
@@ -348,9 +349,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 3000000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = -0.0687459747890057
+	y = -0.8651179879720003
+	theta = -4.220080282956838
 
 
 
@@ -358,9 +359,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 3100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = -0.08292582494077325
+	y = -0.8386806687116551
+	theta = -4.42073720608872
 
 
 
@@ -368,9 +369,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 3200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = -0.09155186404771197
+	y = -0.8099475615123708
+	theta = -4.617897464373889
 
 
 
@@ -378,9 +379,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 3300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = -0.094382393004104
+	y = -0.780081391590082
+	theta = -4.810668775047408
 
 
 
@@ -388,9 +389,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 3400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = -0.09143874325491126
+	y = -0.7502261587798346
+	theta = -4.998384824740131
 
 
 
@@ -398,9 +399,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 3500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = -0.08297535369397575
+	y = -0.7214447231460819
+	theta = -5.18063114665625
 
 
 
@@ -408,9 +409,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 3600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = -0.0694358029637702
+	y = -0.6946738328727983
+	theta = -5.357252058312342
 
 
 
@@ -418,9 +419,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 3700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = -0.05140313240928768
+	y = -0.6706983705691534
+	theta = -5.528339898558666
 
 
 
@@ -428,9 +429,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 3800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = -0.02955180818327796
+	y = -0.6501430882901429
+	theta = -5.694210199535332
 
 
 
@@ -438,9 +439,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 3900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = -0.004606494600839565
+	y = -0.633477815106849
+	theta = -5.8553677972613425
 
 
 
@@ -448,9 +449,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 4000000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.022689707414871294
+	y = -0.6210312350336923
+	theta = -6.012469054373709
 
 
 
@@ -458,9 +459,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 4100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.0515970954756616
+	y = -0.6130085848791064
+	theta = -6.166284545786808
 
 
 
@@ -468,9 +469,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 4200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.08139234199133788
+	y = -0.6095095442863038
+	theta = -6.317665177839785
 
 
 
@@ -478,9 +479,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 4300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.11137451083579623
+	y = -0.6105437354593424
+	theta = -6.467513235799926
 
 
 
@@ -488,9 +489,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 4400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.1408663004508526
+	y = -0.6160423121207388
+	theta = -6.6167586169135095
 
 
 
@@ -498,9 +499,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 4500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.16921265245386624
+	y = -0.6258649557629181
+	theta = -6.766339655556626
 
 
 
@@ -508,9 +509,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 4600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.19577866945518896
+	y = -0.6398021986999353
+	theta = -6.917187478494004
 
 
 
@@ -518,9 +519,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 4700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.21994856500894078
+	y = -0.6575734155665635
+	theta = -7.070212652931201
 
 
 
@@ -528,9 +529,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 4800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.24112718013070425
+	y = -0.6788211510111752
+	theta = -7.226292900659306
 
 
 
@@ -538,9 +539,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 4900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.25874544869930394
+	y = -0.7031027615970629
+	theta = -7.386260762165844
 
 
 
@@ -548,9 +549,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 5000000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2722710420736023
+	y = -0.7298807063253862
+	theta = -7.550890254246937
 
 
 
@@ -558,9 +559,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 5100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.281225205005369
+	y = -0.7585132571406973
+	theta = -7.720881755295806
 
 
 
@@ -568,9 +569,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 5200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.28520642209818253
+	y = -0.7882479155456612
+	theta = -7.896844580158003
 
 
 
@@ -578,9 +579,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 5300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2839209274224234
+	y = -0.8182203612823473
+	theta = -8.079276992441358
 
 
 
@@ -588,9 +589,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 5400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.27721909943975287
+	y = -0.8474622063282861
+	theta = -8.268543774619433
 
 
 
@@ -598,9 +599,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 5500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2651354234545551
+	y = -0.8749209895257396
+	theta = -8.464851962043808
 
 
 
@@ -608,9 +609,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 5600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.24792800528289197
+	y = -0.8994954632711836
+	theta = -8.668225961341616
 
 
 
@@ -618,9 +619,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 5700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.22611179231608455
+	y = -0.9200880068680029
+	theta = -8.878484006347561
 
 
 
@@ -628,9 +629,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 5800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.20047811934479248
+	y = -0.9356737314260993
+	theta = -9.095218702361798
 
 
 
@@ -638,9 +639,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 5900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.17209256721844474
+	y = -0.9453825125278852
+	theta = -9.317785157450505
 
 
 
@@ -648,9 +649,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 6000000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.14226411537494316
+	y = -0.9485861761525355
+	theta = -9.545300709915969
 
 
 
@@ -658,9 +659,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 6100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.11248173775239012
+	y = -0.9449792407292638
+	theta = -9.776660280063078
 
 
 
@@ -668,9 +669,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 6200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.08431996957501896
+	y = -0.9346392787794303
+	theta = -10.010570623141616
 
 
 
@@ -678,9 +679,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 6300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.059321746084692775
+	y = -0.9180534769499226
+	theta = -10.245605021916145
 
 
 
@@ -688,9 +689,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 6400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.03887325793314541
+	y = -0.8961021824023104
+	theta = -10.480277204348615
 
 
 
@@ -698,9 +699,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 6500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.024089456633416384
+	y = -0.8699977916005673
+	theta = -10.713129799222786
 
 
 
@@ -708,9 +709,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 6600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.015728333352781527
+	y = -0.8411864810179849
+	theta = -10.9428291330278
 
 
 
@@ -718,9 +719,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 6700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.014146712313270509
+	y = -0.8112282021140262
+	theta = -11.16825560797996
 
 
 
@@ -728,9 +729,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 6800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.019301444502006722
+	y = -0.781674374340582
+	theta = -11.388578278389568
 
 
 
@@ -738,9 +739,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 6900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.030790397918199083
+	y = -0.7539614901637128
+	theta = -11.60330413955419
 
 
 
@@ -748,9 +749,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 7000000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.04792055581497344
+	y = -0.7293330982058204
+	theta = -11.81229684914906
 
 
 
@@ -758,9 +759,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 7100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.0697877348820315
+	y = -0.7087946834751452
+	theta = -12.01576504066884
 
 
 
@@ -768,9 +769,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 7200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.09535397008581337
+	y = -0.6930985814907382
+	theta = -12.214225476347428
 
 
 
@@ -778,9 +779,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 7300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.12351301975505306
+	y = -0.6827512184582892
+	theta = -12.408449579759777
 
 
 
@@ -788,9 +789,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 7400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.15313971075698107
+	y = -0.6780332548852761
+	theta = -12.599402685544446
 
 
 
@@ -798,9 +799,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 7500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.18312334547919748
+	y = -0.6790240368212734
+	theta = -12.78818389623462
 
 
 
@@ -808,9 +809,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 7600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.212388349479895
+	y = -0.6856240020362696
+	theta = -12.975971678933286
 
 
 
@@ -818,9 +819,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 7700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.23990674255633784
+	y = -0.6975713047649352
+	theta = -13.163977361929506
 
 
 
@@ -828,9 +829,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 7800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2647072800155105
+	y = -0.7144512734182288
+	theta = -13.353406305303839
 
 
 
@@ -838,9 +839,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 7900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2858857178200824
+	y = -0.7356991856017324
+	theta = -13.545425052754897
 
 
 
@@ -848,9 +849,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 8000000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3026199453419414
+	y = -0.7605982946068084
+	theta = -13.741132172234689
 
 
 
@@ -858,9 +859,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 8100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3141928374653194
+	y = -0.7882762310887909
+	theta = -13.94153052481908
 
 
 
@@ -868,9 +869,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 8200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3200245629785903
+	y = -0.8177039557296438
+	theta = -14.147499122184938
 
 
 
@@ -878,9 +879,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 8300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.31971460306264127
+	y = -0.8477023544344164
+	theta = -14.35976338423216
 
 
 
@@ -888,9 +889,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 8400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3130917206582755
+	y = -0.8769621806242273
+	theta = -14.578863425421476
 
 
 
@@ -898,9 +899,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 8500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.30026750820768466
+	y = -0.9040830134842651
+	theta = -14.80512097838135
 
 
 
@@ -908,9 +909,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 8600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.28168607765284676
+	y = -0.9276357296447366
+	theta = -15.038606716672785
 
 
 
@@ -918,9 +919,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 8700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.25815944536586355
+	y = -0.9462501749287916
+	theta = -15.279111039278785
 
 
 
@@ -928,9 +929,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 8800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.23087613666989487
+	y = -0.9587249922260701
+	theta = -15.526122717548882
 
 
 
@@ -938,9 +939,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 8900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.20137076126265946
+	y = -0.9641501947179691
+	theta = -15.778820947405539
 
 
 
@@ -948,9 +949,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 9000000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.1714460419183266
+	y = -0.96202624270276
+	theta = -16.036086921214064
 
 
 
@@ -958,9 +959,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 9100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.14304658107145837
+	y = -0.9523582220362948
+	theta = -16.296540552991406
 
 
 
@@ -968,9 +969,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 9200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.11809463964081496
+	y = -0.9357028739810382
+	theta = -16.558605984824396
 
 
 
@@ -978,9 +979,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 9300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.09830963517054184
+	y = -0.9131517410136845
+	theta = -16.82060572290887
 
 
 
@@ -988,9 +989,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 9400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.08504084146185754
+	y = -0.8862456243574968
+	theta = -17.080877950480872
 
 
 
@@ -998,9 +999,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 9500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.07914305875387669
+	y = -0.8568310674318954
+	theta = -17.33790571154624
 
 
 
@@ -1008,9 +1009,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 9600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.08091640789548894
+	y = -0.8268835260833649
+	theta = -17.590441907657905
 
 
 
@@ -1018,9 +1019,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 9700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.09011621770746882
+	y = -0.7983289555311154
+	theta = -17.83761229344348
 
 
 
@@ -1028,9 +1029,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 9800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.10602263145676738
+	y = -0.7728930360148855
+	theta = -18.078981206415527
 
 
 
@@ -1038,9 +1039,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 9900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.1275479456054117
+	y = -0.751996604482153
+	theta = -18.314571506989058
 
 
 
@@ -1048,9 +1049,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 10000000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.1533562428635853
+	y = -0.7367017755313687
+	theta = -18.54483928749209
 
 
 
@@ -1058,9 +1059,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 10100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.18197420307758388
+	y = -0.7277010892692
+	theta = -18.770612374079086
 
 
 
@@ -1068,9 +1069,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 10200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.21188077036080077
+	y = -0.7253352419929749
+	theta = -18.99300676510966
 
 
 
@@ -1078,9 +1079,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 10300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2415726271550718
+	y = -0.7296240227181346
+	theta = -19.213335712833214
 
 
 
@@ -1088,9 +1089,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 10400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.26960938570348575
+	y = -0.7402982988105887
+	theta = -19.433022877316727
 
 
 
@@ -1098,9 +1099,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 10500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.29464611526116985
+	y = -0.7568259173037469
+	theta = -19.653525848443664
 
 
 
@@ -1108,9 +1109,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 10600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.31546171652404
+	y = -0.7784294064678889
+	theta = -19.87627143705313
 
 
 
@@ -1118,9 +1119,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 10700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3309906719714814
+	y = -0.8040975100735583
+	theta = -20.102600794230764
 
 
 
@@ -1128,9 +1129,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 10800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.34036361300525775
+	y = -0.8325957201292329
+	theta = -20.333720953535884
 
 
 
@@ -1138,9 +1139,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 10900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.34295930223763377
+	y = -0.8624832157989762
+	theta = -20.57065946517715
 
 
 
@@ -1148,9 +1149,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 11000000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3384670454612485
+	y = -0.8921449694399028
+	theta = -20.81421986525901
 
 
 
@@ -1158,9 +1159,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 11100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3269541627624661
+	y = -0.9198479211231455
+	theta = -21.064937367904534
 
 
 
@@ -1168,9 +1169,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 11200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3089281570846123
+	y = -0.9438283948320192
+	theta = -21.323036140216324
 
 
 
@@ -1178,9 +1179,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 11300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.28537838447517816
+	y = -0.9624135558494531
+	theta = -21.588391680562083
 
 
 
@@ -1188,9 +1189,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 11400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2577788671810005
+	y = -0.9741722396673126
+	theta = -21.860503993996822
 
 
 
@@ -1198,9 +1199,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 11500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.22803452334073784
+	y = -0.9780804373992893
+	theta = -22.13848910510203
 
 
 
@@ -1208,9 +1209,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 11600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.19835957313004204
+	y = -0.9736761973975722
+	theta = -22.42109739595153
 
 
 
@@ -1218,9 +1219,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 11700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.17108996062237092
+	y = -0.9611714689446442
+	theta = -22.706766538752937
 
 
 
@@ -1228,9 +1229,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 11800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.1484493221420158
+	y = -0.9414889515954364
+	theta = -22.993713647397712
 
 
 
@@ -1238,9 +1239,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 11900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.13230505923614858
+	y = -0.9162033277109791
+	theta = -23.280065330200514
 
 
 
@@ -1248,9 +1249,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 12000000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.12396021327694437
+	y = -0.8873872983884449
+	theta = -23.564016109880264
 
 
 
@@ -1258,9 +1259,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 12100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.12402234947122241
+	y = -0.8573873627369579
+	theta = -23.84399696880301
 
 
 
@@ -1268,9 +1269,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 12200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.13237216593174456
+	y = -0.8285727732886317
+	theta = -24.11882947653862
 
 
 
@@ -1278,9 +1279,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 12300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.14822848786071627
+	y = -0.8031055972597743
+	theta = -24.387840130864483
 
 
 
@@ -1288,9 +1289,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 12400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.17028313641031004
+	y = -0.7827686240987087
+	theta = -24.6509158449928
 
 
 
@@ -1298,9 +1299,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 12500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.1968676520496404
+	y = -0.7688666987564333
+	theta = -24.90849378745487
 
 
 
@@ -1308,9 +1309,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 12600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2261165039994521
+	y = -0.7621955174803775
+	theta = -25.16149298866151
 
 
 
@@ -1318,9 +1319,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 12700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2561041048981472
+	y = -0.7630579514434032
+	theta = -25.41120608428548
 
 
 
@@ -1328,9 +1329,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 12800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2849484614442043
+	y = -0.7713043503813598
+	theta = -25.659173614761677
 
 
 
@@ -1338,9 +1339,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 12900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.31088661515371974
+	y = -0.7863779094216645
+	theta = -25.90706014121381
 
 
 
@@ -1348,9 +1349,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 13000000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.33233353823947526
+	y = -0.8073547893172469
+	theta = -26.15654385014808
 
 
 
@@ -1358,9 +1359,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 13100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3479371961671653
+	y = -0.8329775498881853
+	theta = -26.40922318839812
 
 
 
@@ -1368,9 +1369,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 13200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3566397091719046
+	y = -0.861687587634631
+	theta = -26.666538300278614
 
 
 
@@ -1378,9 +1379,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 13300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3577494335965706
+	y = -0.8916670558037181
+	theta = -26.929702649907295
 
 
 
@@ -1388,9 +1389,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 13400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.35102217546866016
+	y = -0.920903060969959
+	theta = -27.199640726560993
 
 
 
@@ -1398,9 +1399,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 13500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3367421119279348
+	y = -0.9472863849696533
+	theta = -27.476930097081375
 
 
 
@@ -1408,9 +1409,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 13600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.31578510883632965
+	y = -0.9687527312218327
+	theta = -27.76174934589133
 
 
 
@@ -1418,9 +1419,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 13700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2896407123676955
+	y = -0.9834656688377839
+	theta = -28.0538369845177
 
 
 
@@ -1428,9 +1429,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 13800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.26036704563651364
+	y = -0.9900271043599616
+	theta = -28.352469688337436
 
 
 
@@ -1438,9 +1439,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 13900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.23045857711685444
+	y = -0.9876854146263387
+	theta = -28.656470538992114
 
 
 
@@ -1448,9 +1449,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 14000000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.20262247751696486
+	y = -0.9764982988646678
+	theta = -28.964258318304196
 
 
 
@@ -1458,9 +1459,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 14100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.1794836541541649
+	y = -0.9574039318056332
+	theta = -29.27394612821744
 
 
 
@@ -1468,9 +1469,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 14200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.16326479768241203
+	y = -0.9321660892918865
+	theta = -29.583490801711346
 
 
 
@@ -1478,9 +1479,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 14300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.15550486230489677
+	y = -0.9031870726947556
+	theta = -29.89088388509641
 
 
 
@@ -1488,9 +1489,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 14400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.1568769937313549
+	y = -0.873218468200243
+	theta = -30.194362415819594
 
 
 
@@ -1498,9 +1499,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 14500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.16714228760324987
+	y = -0.8450293968830882
+	theta = -30.492607301673566
 
 
 
@@ -1508,9 +1509,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 14600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.1852375686866519
+	y = -0.8211011541036305
+	theta = -30.784893742477667
 
 
 
@@ -1518,9 +1519,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 14700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.20946012706598854
+	y = -0.8034017850312701
+	theta = -31.071165214810023
 
 
 
@@ -1528,9 +1529,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 14800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.23769481145244842
+	y = -0.793262623448723
+	theta = -31.35201930834246
 
 
 
@@ -1538,9 +1539,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 14900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.26763357029378815
+	y = -0.7913467113839087
+	theta = -31.628614476961555
 
 
 
@@ -1548,9 +1549,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 15000000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.296957581923572
+	y = -0.7976793523761251
+	theta = -31.902523346740175
 
 
 
@@ -1558,9 +1559,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 15100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3234754631732053
+	y = -0.8117079650669918
+	theta = -32.17556440660148
 
 
 
@@ -1568,9 +1569,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 15200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3452280264286166
+	y = -0.8323677325346893
+	theta = -32.449638959016674
 
 
 
@@ -1578,9 +1579,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 15300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.36057700587038205
+	y = -0.8581438616097902
+	theta = -32.726588650585605
 
 
 
@@ -1588,9 +1589,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 15400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.36829331339473453
+	y = -0.8871345255930386
+	theta = -33.00807711562246
 
 
 
@@ -1598,9 +1599,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 15500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3676527344938718
+	y = -0.9171276857911866
+	theta = -33.29549180267216
 
 
 
@@ -1608,9 +1609,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 15600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3585361537199963
+	y = -0.9457089376006054
+	theta = -33.589860157380976
 
 
 
@@ -1618,9 +1619,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 15700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3415192833776897
+	y = -0.9704157407882524
+	theta = -33.89177679024864
 
 
 
@@ -1628,9 +1629,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 15800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3179255294552084
+	y = -0.9889450358597169
+	theta = -34.201343050911
 
 
 
@@ -1638,9 +1639,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 15900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.289808418676645
+	y = -0.9994058236630322
+	theta = -34.51812582016325
 
 
 
@@ -1648,9 +1649,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 16000000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.25983169322975197
+	y = -1.0005873191059345
+	theta = -34.84114697619836
 
 
 
@@ -1658,9 +1659,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 16100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2310302965191275
+	y = -0.9921921093100313
+	theta = -35.16891757402526
 
 
 
@@ -1668,9 +1669,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 16200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2064649126879456
+	y = -0.9749717168282467
+	theta = -35.499529723467454
 
 
 
@@ -1678,9 +1679,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 16300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.18882001635526136
+	y = -0.9507094491393264
+	theta = -35.830812884113534
 
 
 
@@ -1688,9 +1689,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 16400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.18002601252618647
+	y = -0.922027303183101
+	theta = -36.16054914345917
 
 
 
@@ -1698,9 +1699,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 16500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.18099285389540568
+	y = -0.8920428869345434
+	theta = -36.4867255413833
 
 
 
@@ -1708,9 +1709,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 16600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.19151642598038468
+	y = -0.863949214505111
+	theta = -36.80778527772213
 
 
 
@@ -1718,9 +1719,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 16700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.21036784507854137
+	y = -0.8406120339130675
+	theta = -37.12283070741018
 
 
 
@@ -1728,9 +1729,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 16800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2355226917118539
+	y = -0.8242647500146786
+	theta = -37.431735771729976
 
 
 
@@ -1738,9 +1739,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 16900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2644567155731093
+	y = -0.8163387003557184
+	theta = -37.73514531459929
 
 
 
@@ -1748,9 +1749,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 17000000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.29443724151430856
+	y = -0.8174194705852665
+	theta = -38.03436729534297
 
 
 
@@ -1758,9 +1759,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 17100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.32276703033401305
+	y = -0.8272897829121865
+	theta = -38.33118939955337
 
 
 
@@ -1768,9 +1769,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 17200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3469710838499783
+	y = -0.8450144491543555
+	theta = -38.6276632807422
 
 
 
@@ -1778,9 +1779,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 17300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3649409203832057
+	y = -0.8690370421652919
+	theta = -38.92589466097142
 
 
 
@@ -1788,9 +1789,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 17400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3750589648916164
+	y = -0.8972793008448986
+	theta = -39.22786166068369
 
 
 
@@ -1798,9 +1799,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 17500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.37631998852813436
+	y = -0.9272527861175215
+	theta = -39.53526687527347
 
 
 
@@ -1808,9 +1809,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 17600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.36845232547259005
+	y = -0.9562027408332792
+	theta = -39.849418343735415
 
 
 
@@ -1818,9 +1819,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 17700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.35202390097870667
+	y = -0.9813046704134682
+	theta = -40.17113274587234
 
 
 
@@ -1828,9 +1829,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 17800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.32850127505612914
+	y = -0.9999241781864059
+	theta = -40.50065877874663
 
 
 
@@ -1838,9 +1839,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 17900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.30021909250992856
+	y = -1.009930083963665
+	theta = -40.83762612943947
 
 
 
@@ -1848,9 +1849,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 18000000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.27021923465498815
+	y = -1.0100224348346418
+	theta = -41.18103261464923
 
 
 
@@ -1858,9 +1859,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 18100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2419398789049034
+	y = -1.0000085425663903
+	theta = -41.52928638290478
 
 
 
@@ -1868,9 +1869,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 18200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.21877544126508444
+	y = -0.9809452577279649
+	theta = -41.88031925035092
 
 
 
@@ -1878,9 +1879,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 18300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.20357886753375218
+	y = -0.9550789834151038
+	theta = -42.231779148437774
 
 
 
@@ -1888,9 +1889,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 18400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.19821619538705137
+	y = -0.9255621789226287
+	theta = -42.58129347266177
 
 
 
@@ -1898,9 +1899,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 18500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2032855348962873
+	y = -0.8959935841481032
+	theta = -42.926773154032915
 
 
 
@@ -1908,9 +1909,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 18600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.21806869003877016
+	y = -0.8698888274161725
+	theta = -43.26670630592305
 
 
 
@@ -1918,9 +1919,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 18700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.24070986228670205
+	y = -0.8502069240722507
+	theta = -43.600380385091704
 
 
 
@@ -1928,9 +1929,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 18800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.26854842116547567
+	y = -0.8390259295032039
+	theta = -43.927981506486894
 
 
 
@@ -1938,9 +1939,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 18900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.29850417920655337
+	y = -0.837397261279037
+	theta = -44.250549365426714
 
 
 
@@ -1948,9 +1949,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 19000000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.32743124760397246
+	y = -0.8453486582588788
+	theta = -44.569805313260346
 
 
 
@@ -1958,9 +1959,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 19100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3524009813705932
+	y = -0.8619773201300001
+	theta = -44.88790194336567
 
 
 
@@ -1968,9 +1969,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 19200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3709172766450353
+	y = -0.8855812776225409
+	theta = -45.20715167311914
 
 
 
@@ -1978,9 +1979,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 19300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3810897617157305
+	y = -0.9138039732323952
+	theta = -45.529778764392525
 
 
 
@@ -1988,9 +1989,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 19400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.381789139730666
+	y = -0.9437958199643359
+	theta = -45.85771550328134
 
 
 
@@ -1998,9 +1999,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 19500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.37279116099152654
+	y = -0.9724146315855405
+	theta = -46.19244313133189
 
 
 
@@ -2008,9 +2009,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 19600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.35489095072460247
+	y = -0.9964891507375383
+	theta = -46.534869720845
 
 
 
@@ -2018,9 +2019,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 19700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.32994638669401494
+	y = -1.0131555458283765
+	theta = -46.88524027488851
 
 
 
@@ -2028,9 +2029,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 19800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.30079664370845766
+	y = -1.0202472652162227
+	theta = -47.243083739434994
 
 
 
@@ -2038,9 +2039,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 19900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.27100949943666547
+	y = -1.0166799081929578
+	theta = -47.60721147040409
 
 
 
@@ -2048,9 +2049,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 20000000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2444458147613192
+	y = -1.002738220473432
+	theta = -47.975787306613555
 
 
 
@@ -2058,9 +2059,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 20100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.22468912270271957
+	y = -0.9801622793213635
+	theta = -48.34648714016867
 
 
 
@@ -2068,9 +2069,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 20200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.21445295971129857
+	y = -0.951962616784144
+	theta = -48.71675316215567
 
 
 
@@ -2078,9 +2079,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 20300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.21511491692988988
+	y = -0.9219699207959412
+	theta = -49.084124669722875
 
 
 
@@ -2088,9 +2089,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 20400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.22650498857793375
+	y = -0.8942162495459529
+	theta = -49.446598278757776
 
 
 
@@ -2098,9 +2099,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 20500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.24699608689358704
+	y = -0.8723047254132452
+	theta = -49.80294658581182
 
 
 
@@ -2108,9 +2109,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 20600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.27384380156044463
+	y = -0.8589181568773209
+	theta = -50.15291980655966
 
 
 
@@ -2118,9 +2119,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 20700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.30365394689234715
+	y = -0.8555484038758604
+	theta = -50.49727854799536
 
 
 
@@ -2128,9 +2129,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 20800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3328516075859379
+	y = -0.8624401823126606
+	theta = -50.83765247885207
 
 
 
@@ -2138,9 +2139,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 20900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3580734470077492
+	y = -0.8786839139091986
+	theta = -51.17626905374284
 
 
 
@@ -2148,9 +2149,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 21000000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.37646718317639694
+	y = -0.9023835018751988
+	theta = -51.515624719762336
 
 
 
@@ -2158,9 +2159,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 21100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.38592280380977506
+	y = -0.9308543859225485
+	theta = -51.85816702824575
 
 
 
@@ -2168,9 +2169,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 21200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3852662089208602
+	y = -0.9608471997810689
+	theta = -52.20602859203032
 
 
 
@@ -2178,9 +2179,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 21300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.37442474413230126
+	y = -0.9888197334746484
+	theta = -52.56082317199603
 
 
 
@@ -2188,9 +2189,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 21400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3545409136817253
+	y = -1.0112837777813344
+	theta = -52.92349680996765
 
 
 
@@ -2198,9 +2199,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 21500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3279808077991787
+	y = -1.0252322821996551
+	theta = -53.29422686795907
 
 
 
@@ -2208,9 +2209,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 21600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2981716260581048
+	y = -1.0286105486082775
+	theta = -53.67237291486532
 
 
 
@@ -2218,9 +2219,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 21700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.26922119224306396
+	y = -1.020744648664791
+	theta = -54.05649620419428
 
 
 
@@ -2228,9 +2229,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 21800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.24532817189273884
+	y = -1.0026028852847073
+	theta = -54.4444710393463
 
 
 
@@ -2238,9 +2239,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 21900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2300742428707509
+	y = -0.9767703931596305
+	theta = -54.83370614569767
 
 
 
@@ -2248,9 +2249,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 22000000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.22576424993785443
+	y = -0.9470816080561881
+	theta = -55.221474444476456
 
 
 
@@ -2258,9 +2259,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 22100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.233000274332579
+	y = -0.9179673512228264
+	theta = -55.60531705800958
 
 
 
@@ -2268,9 +2269,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 22200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2506126392023043
+	y = -0.8936814581221874
+	theta = -55.983451162720996
 
 
 
@@ -2278,9 +2279,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 22300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2759468174582411
+	y = -0.8776134958339438
+	theta = -56.35508832077706
 
 
 
@@ -2288,9 +2289,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 22400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3053864755332901
+	y = -0.8718423146355927
+	theta = -56.720577915526974
 
 
 
@@ -2298,9 +2299,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 22500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3349442696907449
+	y = -0.8769742542830876
+	theta = -57.08133498474247
 
 
 
@@ -2308,9 +2309,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 22600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3607879387221801
+	y = -0.89220923938297
+	theta = -57.43957706591578
 
 
 
@@ -2318,9 +2319,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 22700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.37964909394557744
+	y = -0.9155385519240398
+	theta = -57.797948547370986
 
 
 
@@ -2328,9 +2329,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 22800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3891292381521648
+	y = -0.9440012795836003
+	theta = -58.15912666922813
 
 
 
@@ -2338,9 +2339,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 22900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.38793967276310654
+	y = -0.9739776858756353
+	theta = -58.525479089522804
 
 
 
@@ -2348,9 +2349,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 23000000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3760911294297595
+	y = -1.001538745740557
+	theta = -58.89880162971256
 
 
 
@@ -2358,9 +2359,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 23100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.35500688007198306
+	y = -1.0228801240704377
+	theta = -59.280133869194806
 
 
 
@@ -2368,9 +2369,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 23200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.32749476891628154
+	y = -1.0348418856362074
+	theta = -59.6696426800241
 
 
 
@@ -2378,9 +2379,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 23300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2975011450573228
+	y = -1.0354603739605102
+	theta = -60.066574853387415
 
 
 
@@ -2388,9 +2389,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 23400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.269600383755863
+	y = -1.0244355148322055
+	theta = -60.46929617354132
 
 
 
@@ -2398,9 +2399,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 23500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.24825264353058016
+	y = -1.0033577068988875
+	theta = -60.87544274502476
 
 
 
@@ -2408,9 +2409,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 23600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2369687999265237
+	y = -0.975560676958277
+	theta = -61.28220262567776
 
 
 
@@ -2418,9 +2419,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 23700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2376031290711647
+	y = -0.9455673839323977
+	theta = -61.68671868239714
 
 
 
@@ -2428,9 +2429,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 23800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.24999084133040353
+	y = -0.9182444158472445
+	theta = -62.08656119856991
 
 
 
@@ -2438,9 +2439,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 23900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2720375410080135
+	y = -0.8978988258256877
+	theta = -62.48017562622141
 
 
 
@@ -2448,9 +2449,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 24000000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.300201426980811
+	y = -0.8875646336990016
+	theta = -62.86719044195956
 
 
 
@@ -2458,9 +2459,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 24100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.33018269798393596
+	y = -0.8886245341835641
+	theta = -63.24849328755088
 
 
 
@@ -2468,9 +2469,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 24200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3576163111242289
+	y = -0.9007652454505676
+	theta = -63.62605088142324
 
 
 
@@ -2478,9 +2479,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 24300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.37864202697935795
+	y = -0.922164293858835
+	theta = -64.0025304695362
 
 
 
@@ -2488,9 +2489,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 24400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.39032786339338643
+	y = -0.9497947340888525
+	theta = -64.38083420322597
 
 
 
@@ -2498,9 +2499,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 24500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.39098226734600805
+	y = -0.9797875958307203
+	theta = -64.76365676933021
 
 
 
@@ -2508,9 +2509,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 24600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.38038576186257533
+	y = -1.0078538401740516
+	theta = -65.15313248616803
 
 
 
@@ -2518,9 +2519,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 24700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3599259973543457
+	y = -1.0297946249427827
+	theta = -65.55058767812375
 
 
 
@@ -2528,9 +2529,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 24800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3325684029342976
+	y = -1.0421056780069262
+	theta = -65.95638817040609
 
 
 
@@ -2538,9 +2539,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 24900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3025727672312046
+	y = -1.0426173798413279
+	theta = -66.36987574908618
 
 
 
@@ -2548,9 +2549,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 25000000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.27489940715205774
+	y = -1.0310335487855036
+	theta = -66.78940644525555
 
 
 
@@ -2558,9 +2559,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 25100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.25434433905407017
+	y = -1.009182023083917
+	theta = -67.21251745513123
 
 
 
@@ -2568,9 +2569,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 25200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.24457411642815968
+	y = -0.9808175602855465
+	theta = -67.63624386178638
 
 
 
@@ -2578,9 +2579,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 25300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.24733027869411625
+	y = -0.9509444357492058
+	theta = -68.05757542081933
 
 
 
@@ -2588,9 +2589,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 25400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2620627899496
+	y = -0.9248110641315396
+	theta = -68.47399258732283
 
 
 
@@ -2598,9 +2599,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 25500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2861069132707748
+	y = -0.9068700459409201
+	theta = -68.88396832231535
 
 
 
@@ -2608,9 +2609,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 25600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3153095699332812
+	y = -0.899999467810095
+	theta = -69.28729810117946
 
 
 
@@ -2618,9 +2619,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 25700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.34486556830601023
+	y = -0.9051417397001488
+	theta = -69.68515160105066
 
 
 
@@ -2628,9 +2629,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 25800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.370120764451182
+	y = -0.9213335607116626
+	theta = -70.07982516353806
 
 
 
@@ -2638,9 +2639,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 25900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3872085285578038
+	y = -0.9459913853893679
+	theta = -70.47427509846139
 
 
 
@@ -2648,9 +2649,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 26000000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3935080782537374
+	y = -0.9753225236834823
+	theta = -70.8715720492443
 
 
 
@@ -2658,9 +2659,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 26100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3879679409010828
+	y = -1.0048065342335029
+	theta = -71.2744064511512
 
 
 
@@ -2668,9 +2669,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 26200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.37131273107139334
+	y = -1.0297585679287553
+	theta = -71.68471541555753
 
 
 
@@ -2678,9 +2679,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 26300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3460867599889105
+	y = -1.045995882452584
+	theta = -72.10344173738467
 
 
 
@@ -2688,9 +2689,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 26400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3164380765567471
+	y = -1.050573607951056
+	theta = -72.53041160347924
 
 
 
@@ -2698,9 +2699,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 26500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.28755540813036445
+	y = -1.042462414168903
+	theta = -72.96432893989481
 
 
 
@@ -2708,9 +2709,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 26600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.26475959472355476
+	y = -1.0229598273886342
+	theta = -73.40290684856093
 
 
 
@@ -2718,9 +2719,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 26700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2524030776897178
+	y = -0.9956227374412294
+	theta = -73.84316380026284
 
 
 
@@ -2728,9 +2729,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 26800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.25287515143252737
+	y = -0.9656264518981601
+	theta = -74.28188899396478
 
 
 
@@ -2738,9 +2739,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 26900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.26604451115720823
+	y = -0.9386715272193198
+	theta = -74.71622773554029
 
 
 
@@ -2748,9 +2749,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 27000000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.28933399508443264
+	y = -0.9197612142022501
+	theta = -75.14427150168768
 
 
 
@@ -2758,9 +2759,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 27100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3183718072171412
+	y = -0.9122242740707694
+	theta = -75.5654931216329
 
 
 
@@ -2768,9 +2769,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 27200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.34795309887933534
+	y = -0.9172189896378665
+	theta = -75.9808833522427
 
 
 
@@ -2778,9 +2779,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 27300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3730031628531588
+	y = -0.9337263908539075
+	theta = -76.39273367770322
 
 
 
@@ -2788,9 +2789,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 27400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.38935057754594854
+	y = -0.9588811524878798
+	theta = -76.80413508527306
 
 
 
@@ -2798,9 +2799,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 27500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3942747421594942
+	y = -0.9884742699792611
+	theta = -77.21835334095636
 
 
 
@@ -2808,9 +2809,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 27600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.38687200343308265
+	y = -1.017546584289417
+	theta = -77.63824725545228
 
 
 
@@ -2818,9 +2819,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 27700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.36826060050461634
+	y = -1.0410756233907972
+	theta = -78.06583018227695
 
 
 
@@ -2828,9 +2829,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 27800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3415679224944721
+	y = -1.0547687216759465
+	theta = -78.50199715070629
 
 
 
@@ -2838,9 +2839,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 27900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.31158937430332134
+	y = -1.0559030269042042
+	theta = -78.9464027236611
 
 
 
@@ -2848,9 +2849,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 28000000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.28403508902658875
+	y = -1.044038737507513
+	theta = -79.39748406510786
 
 
 
@@ -2858,9 +2859,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 28100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.26440899335411977
+	y = -1.0213491723143435
+	theta = -79.85264930743566
 
 
 
@@ -2868,9 +2869,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 28200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.25675563843224675
+	y = -0.992341825685604
+	theta = -80.3086571558973
 
 
 
@@ -2878,9 +2879,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 28300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2626582110783106
+	y = -0.9629282295749966
+	theta = -80.76218013051441
 
 
 
@@ -2888,9 +2889,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 28400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2808512159116883
+	y = -0.9390742031825258
+	theta = -81.21047470760222
 
 
 
@@ -2898,9 +2899,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 28500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3075855591299374
+	y = -0.9254626311686525
+	theta = -81.65200513808476
 
 
 
@@ -2908,9 +2909,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 28600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.33757259126374484
+	y = -0.9245806426165731
+	theta = -82.08683110663657
 
 
 
@@ -2918,9 +2919,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 28700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.36514067110558723
+	y = -0.9364128433346899
+	theta = -82.51661540935127
 
 
 
@@ -2928,9 +2929,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 28800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3852714106922631
+	y = -0.9586558944674244
+	theta = -82.9442358519061
 
 
 
@@ -2938,9 +2939,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 28900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3943651386515482
+	y = -0.9872444255909801
+	theta = -83.37313217900291
 
 
 
@@ -2948,9 +2949,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 29000000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3907461681746343
+	y = -1.0170253431840837
+	theta = -83.80659556407045
 
 
 
@@ -2958,9 +2959,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 29100000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3749534190646458
+	y = -1.042531990857758
+	theta = -84.247176058906
 
 
 
@@ -2968,9 +2969,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 29200000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3497911280749575
+	y = -1.0588678138290761
+	theta = -84.69628707498697
 
 
 
@@ -2978,9 +2979,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 29300000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3200316547211995
+	y = -1.0626590861362266
+	theta = -85.15400668571547
 
 
 
@@ -2988,9 +2989,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 29400000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.29166016902210984
+	y = -1.0529092759213379
+	theta = -85.61905722124665
 
 
 
@@ -2998,9 +2999,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 29500000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.27067424382365735
+	y = -1.0314712036300857
+	theta = -86.0889693373276
 
 
 
@@ -3008,9 +3009,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 29600000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2616703523392956
+	y = -1.0028542516935528
+	theta = -86.56045623840592
 
 
 
@@ -3018,9 +3019,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 29700000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.2666469877532493
+	y = -0.9732699129320292
+	theta = -87.03000068783257
 
 
 
@@ -3028,9 +3029,9 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 29800000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.28447134843900995
+	y = -0.9491391821900084
+	theta = -87.49458575973554
 
 
 
@@ -3038,14 +3039,19 @@ python3 .//src/visualizer/visualizer.py --domain="AF_UNIX" --server-url="localho
 +=visualizer+=
   VSI time: 29900000100 ns
   Inputs:
-	x = 0.0
-	y = 0.0
-	theta = 0.0
+	x = 0.3112182810438485
+	y = -0.9355523651885094
+	theta = -87.95240820976099
 
 
 
+Plot saved!
+Max error (overshoot):     1.0627 m
+Final error (steady state):0.9491 m
+Simulation time:           29.9 s
 +=+ XLVIP-INFO: XlTlmMessageLayer::disconnectFromServer():
 +=+    Disconnecting this remote client from TLM fabric server:
 +=+        clientId=:remoteSession2
-
-Script done on 2026-03-19 00:33:21+00:00 [COMMAND_EXIT_CODE="0"]
+Killed
+make[1]: *** [Makefile.client2:31: sim] Error 137
+make[1]: Leaving directory '/home/ubuntu/IVSI-LineFollower-DigitalTwin/lineFollower'

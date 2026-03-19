@@ -1,4 +1,5 @@
-Script started on 2026-03-19 00:31:30+00:00 [TERM="xterm" TTY="/dev/pts/6" COLUMNS="80" LINES="24"]
+Script started on 2026-03-19 09:01:49+00:00 [TERM="xterm" TTY="/dev/pts/3" COLUMNS="80" LINES="24"]
+make[1]: Entering directory '/home/ubuntu/IVSI-LineFollower-DigitalTwin/lineFollower'
 python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost"
 +=+ XLVIP-INFO: XlTlmMessageLayer::connectToServer():
 +=+    Connecting clientId=':remoteSession0' to 'server@localhost' ...
@@ -11,39 +12,39 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=+    Successfully connected this remote client conduit into the TLM fabric server:
 +=+        clientId=:remoteSession0
 +=+        conduitId=:timeServerConduit0
-           localClientConduitHandle=0x650dfb4fbdb8
-           remoteServerProxyConduitHandle=0x3ac356a0
+           localClientConduitHandle=0x603c76b079a8
+           remoteServerProxyConduitHandle=0x1fbda6a0
 +=+ XLVIP-INFO: XlTlmMessageLayer::connect():
 +=+    Successfully connected this remote client conduit into the TLM fabric server:
 +=+        clientId=:remoteSession0
 +=+        conduitId=:resetServerConduit0
-           localClientConduitHandle=0x650dfb5ef3c8
-           remoteServerProxyConduitHandle=0x3ac317e0
+           localClientConduitHandle=0x603c76b0eae8
+           remoteServerProxyConduitHandle=0x1fbd67a0
 +=+ XLVIP-INFO: XlTlmMessageLayer::connect():
 +=+    Successfully connected this remote client conduit into the TLM fabric server:
 +=+        clientId=:remoteSession0
 +=+        conduitId=:txConfigPort0
-           localClientConduitHandle=0x650dfb51e230
-           remoteServerProxyConduitHandle=0x3ac45070
+           localClientConduitHandle=0x603c769b8a00
+           remoteServerProxyConduitHandle=0x1fbea070
 +=+ XLVIP-INFO: XlTlmMessageLayer::connect():
 +=+    Successfully connected this remote client conduit into the TLM fabric server:
 +=+        clientId=:remoteSession0
 +=+        conduitId=:rxConfigPort0
-           localClientConduitHandle=0x650dfb668e00
-           remoteServerProxyConduitHandle=0x3ac40c80
+           localClientConduitHandle=0x603c76b08200
+           remoteServerProxyConduitHandle=0x1fbe5c80
 +=+ INFO: ... successfully connected to TLM FabricServer !
 +=+ XLVIP-INFO: XlTlmMessageLayer::connect():
 +=+    Successfully connected this remote client conduit into the TLM fabric server:
 +=+        clientId=:remoteSession0
 +=+        conduitId=:txCanFrameConduit0
-           localClientConduitHandle=0x650dfb669080
-           remoteServerProxyConduitHandle=0x3ac3a130
+           localClientConduitHandle=0x603c76a65530
+           remoteServerProxyConduitHandle=0x1fbdf130
 +=+ XLVIP-INFO: XlTlmMessageLayer::connect():
 +=+    Successfully connected this remote client conduit into the TLM fabric server:
 +=+        clientId=:remoteSession0
 +=+        conduitId=:rxCanFrameConduit0
-           localClientConduitHandle=0x650dfb669300
-           remoteServerProxyConduitHandle=0x3ac38e90
+           localClientConduitHandle=0x603c76b13bc0
+           remoteServerProxyConduitHandle=0x1fbdde90
 
 +=simulator+=
   VSI time: 50100 ns
@@ -51,9 +52,9 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 	v = 0.0
 	omega = 0.0
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = -0.05823650435866179
+	y = -0.49171368920016467
+	theta = -0.1250315610296876
 
 
 
@@ -61,12 +62,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 100050100 ns
   Inputs:
-	v = 0.0
+	v = 0.3
 	omega = 0.0
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = -0.05823650435866179
+	y = -0.49171368920016467
+	theta = -0.1250315610296876
 
 
 
@@ -74,12 +75,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 200050100 ns
   Inputs:
-	v = 0.0
+	v = 0.3
 	omega = 0.0
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = -0.02847069240249565
+	y = -0.49545487064325944
+	theta = -0.1250315610296876
 
 
 
@@ -87,12 +88,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.4634855828928246
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.0012951195536704888
+	y = -0.4991960520863542
+	theta = -0.1250315610296876
 
 
 
@@ -100,12 +101,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -0.9932616521843326
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.031060931509836628
+	y = -0.502937233529449
+	theta = -0.3713801193189701
 
 
 
@@ -113,12 +114,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.016922108106239
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.05901575307199543
+	y = -0.5138242878338906
+	theta = -0.4707062845374034
 
 
 
@@ -126,12 +127,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.0293964315132922
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.08575319905001633
+	y = -0.5274297640318196
+	theta = -0.5723984953480272
 
 
 
@@ -139,12 +140,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.0419081667347763
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.11097132654432687
+	y = -0.5436792577371847
+	theta = -0.6753381384993564
 
 
 
@@ -152,12 +153,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.090258136806039
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.13438619468423027
+	y = -0.5624340957794323
+	theta = -0.779528955172834
 
 
 
@@ -165,12 +166,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.1308986525226774
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.15572353674210823
+	y = -0.5835224298507882
+	theta = -0.888554768853438
 
 
 
@@ -178,12 +179,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 1000050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.1767664850330877
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.1746395692566452
+	y = -0.6068072685641867
+	theta = -1.0016446341057057
 
 
 
@@ -191,12 +192,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 1100050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.2274165350860242
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.19080709917367508
+	y = -0.6320780219439722
+	theta = -1.1193212826090144
 
 
 
@@ -204,12 +205,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 1200050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.2824289156145692
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.20389589696477717
+	y = -0.6590721578327841
+	theta = -1.2420629361176168
 
 
 
@@ -217,12 +218,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 1300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.3416561796531359
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.21358123204674667
+	y = -0.6874657184469439
+	theta = -1.3703058276790736
 
 
 
@@ -230,12 +231,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 1400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.4044762106313078
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.21955573290675062
+	y = -0.7168647888314614
+	theta = -1.5044714456443873
 
 
 
@@ -243,12 +244,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 1500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.4702253515143382
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.22154402084969924
+	y = -0.7467988281689101
+	theta = -1.644919066707518
 
 
 
@@ -256,12 +257,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 1600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.5380854041031715
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.21932237431161405
+	y = -0.7767164531859433
+	theta = -1.7919416018589518
 
 
 
@@ -269,12 +270,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 1700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.607068722071594
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.21274195978973326
+	y = -0.805985859478525
+	theta = -1.945750142269269
 
 
 
@@ -282,12 +283,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 1800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.676009695886974
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.20175507318046365
+	y = -0.8339015955898127
+	theta = -2.1064570144764283
 
 
 
@@ -295,12 +296,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 1900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.7435628674916532
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.18644279427050506
+	y = -0.8596995434652472
+	theta = -2.274057984065126
 
 
 
@@ -308,12 +309,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 2000050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.8082168824982472
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.16704152699531716
+	y = -0.882581650626012
+	theta = -2.448414270814291
 
 
 
@@ -321,12 +322,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 2100050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.8683263601328388
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.14396495807585588
+	y = -0.9017512089648302
+	theta = -2.6292359590641157
 
 
 
@@ -334,12 +335,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 2200050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.922165886610801
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.11781721006232326
+	y = -0.9164581894102106
+	theta = -2.8160685950773994
 
 
 
@@ -347,12 +348,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 2300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.9680083952945815
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.08939271226817214
+	y = -0.9260523504027257
+	theta = -3.0082851837384794
 
 
 
@@ -360,12 +361,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 2400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.004227377596026
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.05965888096942123
+	y = -0.9300397400623177
+	theta = -3.2050860232679375
 
 
 
@@ -373,12 +374,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 2500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.029418186700576
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.029719331776734283
+	y = -0.9281362185524108
+	theta = -3.40550876102754
 
 
 
@@ -386,12 +387,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 2600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.0425285738310373
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.0007580573139225437
+	y = -0.9203103268147436
+	theta = -3.6084505796975974
 
 
 
@@ -399,12 +400,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 2700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.0429834365520754
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = -0.026031549295169532
+	y = -0.9068078463859449
+	theta = -3.8127034370807014
 
 
 
@@ -412,12 +413,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 2800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.030785022209289
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = -0.049525491339719896
+	y = -0.8881521585881899
+	theta = -4.017001780735909
 
 
 
@@ -425,12 +426,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 2900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.006569231318821
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = -0.0687459747890057
+	y = -0.8651179879720003
+	theta = -4.220080282956838
 
 
 
@@ -438,12 +439,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 3000050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.9716025828516888
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = -0.08292582494077325
+	y = -0.8386806687116551
+	theta = -4.42073720608872
 
 
 
@@ -451,12 +452,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 3100050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.9277131067351914
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = -0.09155186404771197
+	y = -0.8099475615123708
+	theta = -4.617897464373889
 
 
 
@@ -464,12 +465,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 3200050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.877160496927229
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = -0.094382393004104
+	y = -0.780081391590082
+	theta = -4.810668775047408
 
 
 
@@ -477,12 +478,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 3300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.8224632191611883
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = -0.09143874325491126
+	y = -0.7502261587798346
+	theta = -4.998384824740131
 
 
 
@@ -490,12 +491,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 3400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.7662091165609257
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = -0.08297535369397575
+	y = -0.7214447231460819
+	theta = -5.18063114665625
 
 
 
@@ -503,12 +504,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 3500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.7108784024632357
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = -0.0694358029637702
+	y = -0.6946738328727983
+	theta = -5.357252058312342
 
 
 
@@ -516,12 +517,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 3600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.6587030097666629
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = -0.05140313240928768
+	y = -0.6706983705691534
+	theta = -5.528339898558666
 
 
 
@@ -529,12 +530,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 3700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.6115759772601028
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = -0.02955180818327796
+	y = -0.6501430882901429
+	theta = -5.694210199535332
 
 
 
@@ -542,12 +543,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 3800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.5710125711236707
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = -0.004606494600839565
+	y = -0.633477815106849
+	theta = -5.8553677972613425
 
 
 
@@ -555,12 +556,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 3900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.5381549141309887
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.022689707414871294
+	y = -0.6210312350336923
+	theta = -6.012469054373709
 
 
 
@@ -568,12 +569,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 4000050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.5138063205297723
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.0515970954756616
+	y = -0.6130085848791064
+	theta = -6.166284545786808
 
 
 
@@ -581,12 +582,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 4100050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.4984805796014027
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.08139234199133788
+	y = -0.6095095442863038
+	theta = -6.317665177839785
 
 
 
@@ -594,12 +595,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 4200050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.4924538111358379
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.11137451083579623
+	y = -0.6105437354593424
+	theta = -6.467513235799926
 
 
 
@@ -607,12 +608,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 4300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.4958103864311696
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.1408663004508526
+	y = -0.6160423121207388
+	theta = -6.6167586169135095
 
 
 
@@ -620,12 +621,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 4400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.5084782293737773
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.16921265245386624
+	y = -0.6258649557629181
+	theta = -6.766339655556626
 
 
 
@@ -633,12 +634,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 4500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.5302517443719714
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.19577866945518896
+	y = -0.6398021986999353
+	theta = -6.917187478494004
 
 
 
@@ -646,12 +647,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 4600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.5608024772810452
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.21994856500894078
+	y = -0.6575734155665635
+	theta = -7.070212652931201
 
 
 
@@ -659,12 +660,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 4700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.5996786150653817
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.24112718013070425
+	y = -0.6788211510111752
+	theta = -7.226292900659306
 
 
 
@@ -672,12 +673,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 4800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.646294920810929
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.25874544869930394
+	y = -0.7031027615970629
+	theta = -7.386260762165844
 
 
 
@@ -685,12 +686,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 4900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.699915010488684
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2722710420736023
+	y = -0.7298807063253862
+	theta = -7.550890254246937
 
 
 
@@ -698,12 +699,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 5000050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.7596282486219703
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.281225205005369
+	y = -0.7585132571406973
+	theta = -7.720881755295806
 
 
 
@@ -711,12 +712,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 5100050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.8243241228335436
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.28520642209818253
+	y = -0.7882479155456612
+	theta = -7.896844580158003
 
 
 
@@ -724,12 +725,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 5200050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.8926678217807509
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2839209274224234
+	y = -0.8182203612823473
+	theta = -8.079276992441358
 
 
 
@@ -737,12 +738,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 5300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.9630818742437437
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.27721909943975287
+	y = -0.8474622063282861
+	theta = -8.268543774619433
 
 
 
@@ -750,12 +751,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 5400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.0337399929780866
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2651354234545551
+	y = -0.8749209895257396
+	theta = -8.464851962043808
 
 
 
@@ -763,12 +764,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 5500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.102580450059449
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.24792800528289197
+	y = -0.8994954632711836
+	theta = -8.668225961341616
 
 
 
@@ -776,12 +777,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 5600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.167346960142367
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.22611179231608455
+	y = -0.9200880068680029
+	theta = -8.878484006347561
 
 
 
@@ -789,12 +790,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 5700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.2256645508870756
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.20047811934479248
+	y = -0.9356737314260993
+	theta = -9.095218702361798
 
 
 
@@ -802,12 +803,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 5800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.275155524654647
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.17209256721844474
+	y = -0.9453825125278852
+	theta = -9.317785157450505
 
 
 
@@ -815,12 +816,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 5900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.3135957014710917
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.14226411537494316
+	y = -0.9485861761525355
+	theta = -9.545300709915969
 
 
 
@@ -828,12 +829,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 6000050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.3391034307853773
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.11248173775239012
+	y = -0.9449792407292638
+	theta = -9.776660280063078
 
 
 
@@ -841,12 +842,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 6100050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.350343987745296
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.08431996957501896
+	y = -0.9346392787794303
+	theta = -10.010570623141616
 
 
 
@@ -854,12 +855,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 6200050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.3467218243247148
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.059321746084692775
+	y = -0.9180534769499226
+	theta = -10.245605021916145
 
 
 
@@ -867,12 +868,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 6300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.328525948741698
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.03887325793314541
+	y = -0.8961021824023104
+	theta = -10.480277204348615
 
 
 
@@ -880,12 +881,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 6400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.2969933380501404
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.024089456633416384
+	y = -0.8699977916005673
+	theta = -10.713129799222786
 
 
 
@@ -893,12 +894,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 6500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.2542647495216013
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.015728333352781527
+	y = -0.8411864810179849
+	theta = -10.9428291330278
 
 
 
@@ -906,12 +907,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 6600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.2032267040960867
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.014146712313270509
+	y = -0.8112282021140262
+	theta = -11.16825560797996
 
 
 
@@ -919,12 +920,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 6700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.1472586116462136
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.019301444502006722
+	y = -0.781674374340582
+	theta = -11.388578278389568
 
 
 
@@ -932,12 +933,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 6800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.08992709594871
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.030790397918199083
+	y = -0.7539614901637128
+	theta = -11.60330413955419
 
 
 
@@ -945,12 +946,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 6900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.034681915197805
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.04792055581497344
+	y = -0.7293330982058204
+	theta = -11.81229684914906
 
 
 
@@ -958,12 +959,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 7000050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.9846043567858653
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.0697877348820315
+	y = -0.7087946834751452
+	theta = -12.01576504066884
 
 
 
@@ -971,12 +972,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 7100050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.9422410341234895
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.09535397008581337
+	y = -0.6930985814907382
+	theta = -12.214225476347428
 
 
 
@@ -984,12 +985,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 7200050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.9095310578466929
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.12351301975505306
+	y = -0.6827512184582892
+	theta = -12.408449579759777
 
 
 
@@ -997,12 +998,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 7300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.8878121069017455
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.15313971075698107
+	y = -0.6780332548852761
+	theta = -12.599402685544446
 
 
 
@@ -1010,12 +1011,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 7400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.8778778269866438
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.18312334547919748
+	y = -0.6790240368212734
+	theta = -12.78818389623462
 
 
 
@@ -1023,12 +1024,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 7500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.8800568299622027
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.212388349479895
+	y = -0.6856240020362696
+	theta = -12.975971678933286
 
 
 
@@ -1036,12 +1037,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 7600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.894289433743337
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.23990674255633784
+	y = -0.6975713047649352
+	theta = -13.163977361929506
 
 
 
@@ -1049,12 +1050,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 7700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.9201874745105754
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2647072800155105
+	y = -0.7144512734182288
+	theta = -13.353406305303839
 
 
 
@@ -1062,12 +1063,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 7800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -1.957071194797927
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2858857178200824
+	y = -0.7356991856017324
+	theta = -13.545425052754897
 
 
 
@@ -1075,12 +1076,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 7900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.003983525843916
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3026199453419414
+	y = -0.7605982946068084
+	theta = -13.741132172234689
 
 
 
@@ -1088,12 +1089,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 8000050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.0596859736585693
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3141928374653194
+	y = -0.7882762310887909
+	theta = -13.94153052481908
 
 
 
@@ -1101,12 +1102,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 8100050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.1226426204722237
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3200245629785903
+	y = -0.8177039557296438
+	theta = -14.147499122184938
 
 
 
@@ -1114,12 +1115,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 8200050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.1910004118931607
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.31971460306264127
+	y = -0.8477023544344164
+	theta = -14.35976338423216
 
 
 
@@ -1127,12 +1128,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 8300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.2625755295987333
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3130917206582755
+	y = -0.8769621806242273
+	theta = -14.578863425421476
 
 
 
@@ -1140,12 +1141,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 8400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.334857382914347
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.30026750820768466
+	y = -0.9040830134842651
+	theta = -14.80512097838135
 
 
 
@@ -1153,12 +1154,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 8500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.405043226059995
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.28168607765284676
+	y = -0.9276357296447366
+	theta = -15.038606716672785
 
 
 
@@ -1166,12 +1167,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 8600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.470116782700974
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.25815944536586355
+	y = -0.9462501749287916
+	theta = -15.279111039278785
 
 
 
@@ -1179,12 +1180,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 8700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.5269822985665735
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.23087613666989487
+	y = -0.9587249922260701
+	theta = -15.526122717548882
 
 
 
@@ -1192,12 +1193,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 8800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.5726597380852647
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.20137076126265946
+	y = -0.9641501947179691
+	theta = -15.778820947405539
 
 
 
@@ -1205,12 +1206,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 8900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.6045363177734133
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.1714460419183266
+	y = -0.96202624270276
+	theta = -16.036086921214064
 
 
 
@@ -1218,12 +1219,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 9000050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.6206543183299016
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.14304658107145837
+	y = -0.9523582220362948
+	theta = -16.296540552991406
 
 
 
@@ -1231,12 +1232,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 9100050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.6199973808447408
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.11809463964081496
+	y = -0.9357028739810382
+	theta = -16.558605984824396
 
 
 
@@ -1244,12 +1245,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 9200050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.602722275720026
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.09830963517054184
+	y = -0.9131517410136845
+	theta = -16.82060572290887
 
 
 
@@ -1257,12 +1258,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 9300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.57027761065369
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.08504084146185754
+	y = -0.8862456243574968
+	theta = -17.080877950480872
 
 
 
@@ -1270,12 +1271,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 9400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.525361961116613
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.07914305875387669
+	y = -0.8568310674318954
+	theta = -17.33790571154624
 
 
 
@@ -1283,12 +1284,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 9500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.4717038578557506
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.08091640789548894
+	y = -0.8268835260833649
+	theta = -17.590441907657905
 
 
 
@@ -1296,12 +1297,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 9600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.413689129720449
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.09011621770746882
+	y = -0.7983289555311154
+	theta = -17.83761229344348
 
 
 
@@ -1309,12 +1310,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 9700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.355903005735324
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.10602263145676738
+	y = -0.7728930360148855
+	theta = -18.078981206415527
 
 
 
@@ -1322,12 +1323,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 9800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.3026778050303087
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.1275479456054117
+	y = -0.751996604482153
+	theta = -18.314571506989058
 
 
 
@@ -1335,12 +1336,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 9900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.257730865869964
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.1533562428635853
+	y = -0.7367017755313687
+	theta = -18.54483928749209
 
 
 
@@ -1348,12 +1349,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 10000050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.223943910305712
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.18197420307758388
+	y = -0.7277010892692
+	theta = -18.770612374079086
 
 
 
@@ -1361,12 +1362,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 10100050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.203289477235561
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.21188077036080077
+	y = -0.7253352419929749
+	theta = -18.99300676510966
 
 
 
@@ -1374,12 +1375,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 10200050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.196871644835151
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2415726271550718
+	y = -0.7296240227181346
+	theta = -19.213335712833214
 
 
 
@@ -1387,12 +1388,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 10300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.2050297112693515
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.26960938570348575
+	y = -0.7402982988105887
+	theta = -19.433022877316727
 
 
 
@@ -1400,12 +1401,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 10400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.2274558860946625
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.29464611526116985
+	y = -0.7568259173037469
+	theta = -19.653525848443664
 
 
 
@@ -1413,12 +1414,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 10500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.263293571776317
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.31546171652404
+	y = -0.7784294064678889
+	theta = -19.87627143705313
 
 
 
@@ -1426,12 +1427,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 10600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.3112015930512144
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3309906719714814
+	y = -0.8040975100735583
+	theta = -20.102600794230764
 
 
 
@@ -1439,12 +1440,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 10700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.3693851164126807
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.34036361300525775
+	y = -0.8325957201292329
+	theta = -20.333720953535884
 
 
 
@@ -1452,12 +1453,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 10800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.4356040008185955
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.34295930223763377
+	y = -0.8624832157989762
+	theta = -20.57065946517715
 
 
 
@@ -1465,12 +1466,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 10900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.507175026455252
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3384670454612485
+	y = -0.8921449694399028
+	theta = -20.81421986525901
 
 
 
@@ -1478,12 +1479,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 11000050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.5809877231179086
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3269541627624661
+	y = -0.9198479211231455
+	theta = -21.064937367904534
 
 
 
@@ -1491,12 +1492,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 11100050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.6535554034575917
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3089281570846123
+	y = -0.9438283948320192
+	theta = -21.323036140216324
 
 
 
@@ -1504,12 +1505,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 11200050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.7211231343473936
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.28537838447517816
+	y = -0.9624135558494531
+	theta = -21.588391680562083
 
 
 
@@ -1517,12 +1518,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 11300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.779851111052059
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2577788671810005
+	y = -0.9741722396673126
+	theta = -21.860503993996822
 
 
 
@@ -1530,12 +1531,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 11400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.826082908495019
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.22803452334073784
+	y = -0.9780804373992893
+	theta = -22.13848910510203
 
 
 
@@ -1543,12 +1544,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 11500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.8566914280140625
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.19835957313004204
+	y = -0.9736761973975722
+	theta = -22.42109739595153
 
 
 
@@ -1556,12 +1557,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 11600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.869471086447731
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.17108996062237092
+	y = -0.9611714689446442
+	theta = -22.706766538752937
 
 
 
@@ -1569,12 +1570,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 11700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.8635168280280294
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.1484493221420158
+	y = -0.9414889515954364
+	theta = -22.993713647397712
 
 
 
@@ -1582,12 +1583,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 11800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.839507796797489
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.13230505923614858
+	y = -0.9162033277109791
+	theta = -23.280065330200514
 
 
 
@@ -1595,12 +1596,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 11900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.7998085892274474
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.12396021327694437
+	y = -0.8873872983884449
+	theta = -23.564016109880264
 
 
 
@@ -1608,12 +1609,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 12000050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.7483250773561467
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.12402234947122241
+	y = -0.8573873627369579
+	theta = -23.84399696880301
 
 
 
@@ -1621,12 +1622,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 12100050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.690106543258593
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.13237216593174456
+	y = -0.8285727732886317
+	theta = -24.11882947653862
 
 
 
@@ -1634,12 +1635,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 12200050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.630757141283178
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.14822848786071627
+	y = -0.8031055972597743
+	theta = -24.387840130864483
 
 
 
@@ -1647,12 +1648,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 12300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.5757794246207157
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.17028313641031004
+	y = -0.7827686240987087
+	theta = -24.6509158449928
 
 
 
@@ -1660,12 +1661,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 12400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.5299920120664314
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.1968676520496404
+	y = -0.7688666987564333
+	theta = -24.90849378745487
 
 
 
@@ -1673,12 +1674,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 12500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.4971309562397215
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2261165039994521
+	y = -0.7621955174803775
+	theta = -25.16149298866151
 
 
 
@@ -1686,12 +1687,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 12600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.479675304761953
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2561041048981472
+	y = -0.7630579514434032
+	theta = -25.41120608428548
 
 
 
@@ -1699,12 +1700,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 12700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.4788652645213363
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2849484614442043
+	y = -0.7713043503813598
+	theta = -25.659173614761677
 
 
 
@@ -1712,12 +1713,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 12800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.4948370893426874
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.31088661515371974
+	y = -0.7863779094216645
+	theta = -25.90706014121381
 
 
 
@@ -1725,12 +1726,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 12900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.526793382500417
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.33233353823947526
+	y = -0.8073547893172469
+	theta = -26.15654385014808
 
 
 
@@ -1738,12 +1739,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 13000050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.573151118804937
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3479371961671653
+	y = -0.8329775498881853
+	theta = -26.40922318839812
 
 
 
@@ -1751,12 +1752,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 13100050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.631643496286807
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3566397091719046
+	y = -0.861687587634631
+	theta = -26.666538300278614
 
 
 
@@ -1764,12 +1765,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 13200050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.699380766536978
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3577494335965706
+	y = -0.8916670558037181
+	theta = -26.929702649907295
 
 
 
@@ -1777,12 +1778,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 13300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.772893705203804
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.35102217546866016
+	y = -0.920903060969959
+	theta = -27.199640726560993
 
 
 
@@ -1790,12 +1791,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 13400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.848192488099564
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3367421119279348
+	y = -0.9472863849696533
+	theta = -27.476930097081375
 
 
 
@@ -1803,12 +1804,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 13500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.9208763862636995
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.31578510883632965
+	y = -0.9687527312218327
+	theta = -27.76174934589133
 
 
 
@@ -1816,12 +1817,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 13600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.9863270381973424
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2896407123676955
+	y = -0.9834656688377839
+	theta = -28.0538369845177
 
 
 
@@ -1829,12 +1830,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 13700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.040008506546788
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.26036704563651364
+	y = -0.9900271043599616
+	theta = -28.352469688337436
 
 
 
@@ -1842,12 +1843,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 13800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.0778777931208197
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.23045857711685444
+	y = -0.9876854146263387
+	theta = -28.656470538992114
 
 
 
@@ -1855,12 +1856,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 13900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.0968780991324154
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.20262247751696486
+	y = -0.9764982988646678
+	theta = -28.964258318304196
 
 
 
@@ -1868,12 +1869,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 14000050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.09544673493905
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.1794836541541649
+	y = -0.9574039318056332
+	theta = -29.27394612821744
 
 
 
@@ -1881,12 +1882,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 14100050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.0739308338506666
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.16326479768241203
+	y = -0.9321660892918865
+	theta = -29.583490801711346
 
 
 
@@ -1894,12 +1895,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 14200050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.034785307231827
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.15550486230489677
+	y = -0.9031870726947556
+	theta = -29.89088388509641
 
 
 
@@ -1907,12 +1908,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 14300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.982448858539723
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.1568769937313549
+	y = -0.873218468200243
+	theta = -30.194362415819594
 
 
 
@@ -1920,12 +1921,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 14400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.922864408041012
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.16714228760324987
+	y = -0.8450293968830882
+	theta = -30.492607301673566
 
 
 
@@ -1933,12 +1934,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 14500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.862714723323545
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.1852375686866519
+	y = -0.8211011541036305
+	theta = -30.784893742477667
 
 
 
@@ -1946,12 +1947,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 14600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.808540935324377
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.20946012706598854
+	y = -0.8034017850312701
+	theta = -31.071165214810023
 
 
 
@@ -1959,12 +1960,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 14700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.765951686190972
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.23769481145244842
+	y = -0.793262623448723
+	theta = -31.35201930834246
 
 
 
@@ -1972,12 +1973,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 14800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.7390886977861837
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.26763357029378815
+	y = -0.7913467113839087
+	theta = -31.628614476961555
 
 
 
@@ -1985,12 +1986,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 14900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.7304105986130685
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.296957581923572
+	y = -0.7976793523761251
+	theta = -31.902523346740175
 
 
 
@@ -1998,12 +1999,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 15000050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.7407455241519005
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3234754631732053
+	y = -0.8117079650669918
+	theta = -32.17556440660148
 
 
 
@@ -2011,12 +2012,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 15100050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.7694969156893094
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3452280264286166
+	y = -0.8323677325346893
+	theta = -32.449638959016674
 
 
 
@@ -2024,12 +2025,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 15200050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.8148846503685965
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.36057700587038205
+	y = -0.8581438616097902
+	theta = -32.726588650585605
 
 
 
@@ -2037,12 +2038,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 15300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.87414687049695
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.36829331339473453
+	y = -0.8871345255930386
+	theta = -33.00807711562246
 
 
 
@@ -2050,12 +2051,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 15400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.943683547088184
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3676527344938718
+	y = -0.9171276857911866
+	theta = -33.29549180267216
 
 
 
@@ -2063,12 +2064,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 15500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.0191663286766945
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3585361537199963
+	y = -0.9457089376006054
+	theta = -33.589860157380976
 
 
 
@@ -2076,12 +2077,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 15600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.0956626066235646
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3415192833776897
+	y = -0.9704157407882524
+	theta = -33.89177679024864
 
 
 
@@ -2089,12 +2090,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 15700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.1678276925224704
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3179255294552084
+	y = -0.9889450358597169
+	theta = -34.201343050911
 
 
 
@@ -2102,12 +2103,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 15800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.2302115603511266
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.289808418676645
+	y = -0.9994058236630322
+	theta = -34.51812582016325
 
 
 
@@ -2115,12 +2116,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 15900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.277705978268988
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.25983169322975197
+	y = -1.0005873191059345
+	theta = -34.84114697619836
 
 
 
@@ -2128,12 +2129,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 16000050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.3061214944219666
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2310302965191275
+	y = -0.9921921093100313
+	theta = -35.16891757402526
 
 
 
@@ -2141,12 +2142,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 16100050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.31283160646078
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2064649126879456
+	y = -0.9749717168282467
+	theta = -35.499529723467454
 
 
 
@@ -2154,12 +2155,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 16200050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.2973625934564046
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.18882001635526136
+	y = -0.9507094491393264
+	theta = -35.830812884113534
 
 
 
@@ -2167,12 +2168,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 16300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.2617639792412825
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.18002601252618647
+	y = -0.922027303183101
+	theta = -36.16054914345917
 
 
 
@@ -2180,12 +2181,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 16400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.2105973633883513
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.18099285389540568
+	y = -0.8920428869345434
+	theta = -36.4867255413833
 
 
 
@@ -2193,12 +2194,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 16500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.150454296880497
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.19151642598038468
+	y = -0.863949214505111
+	theta = -36.80778527772213
 
 
 
@@ -2206,12 +2207,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 16600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.089050643197962
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.21036784507854137
+	y = -0.8406120339130675
+	theta = -37.12283070741018
 
 
 
@@ -2219,12 +2220,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 16700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.034095428693195
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2355226917118539
+	y = -0.8242647500146786
+	theta = -37.431735771729976
 
 
 
@@ -2232,12 +2233,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 16800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.992219807436757
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2644567155731093
+	y = -0.8163387003557184
+	theta = -37.73514531459929
 
 
 
@@ -2245,12 +2246,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 16900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.968221042103967
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.29443724151430856
+	y = -0.8174194705852665
+	theta = -38.03436729534297
 
 
 
@@ -2258,12 +2259,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 17000050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.9647388118883002
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.32276703033401305
+	y = -0.8272897829121865
+	theta = -38.33118939955337
 
 
 
@@ -2271,12 +2272,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 17100050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -2.9823138022922233
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3469710838499783
+	y = -0.8450144491543555
+	theta = -38.6276632807422
 
 
 
@@ -2284,12 +2285,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 17200050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.0196699971226972
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3649409203832057
+	y = -0.8690370421652919
+	theta = -38.92589466097142
 
 
 
@@ -2297,12 +2298,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 17300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.074052145897774
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3750589648916164
+	y = -0.8972793008448986
+	theta = -39.22786166068369
 
 
 
@@ -2310,12 +2311,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 17400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.141514684619403
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.37631998852813436
+	y = -0.9272527861175215
+	theta = -39.53526687527347
 
 
 
@@ -2323,12 +2324,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 17500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.2171440213692306
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.36845232547259005
+	y = -0.9562027408332792
+	theta = -39.849418343735415
 
 
 
@@ -2336,12 +2337,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 17600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.2952603287429043
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.35202390097870667
+	y = -0.9813046704134682
+	theta = -40.17113274587234
 
 
 
@@ -2349,12 +2350,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 17700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.369673506928374
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.32850127505612914
+	y = -0.9999241781864059
+	theta = -40.50065877874663
 
 
 
@@ -2362,12 +2363,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 17800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.4340648520976265
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.30021909250992856
+	y = -1.009930083963665
+	theta = -40.83762612943947
 
 
 
@@ -2375,12 +2376,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 17900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.4825376825554337
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.27021923465498815
+	y = -1.0100224348346418
+	theta = -41.18103261464923
 
 
 
@@ -2388,12 +2389,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 18000050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.5103286744614186
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2419398789049034
+	y = -1.0000085425663903
+	theta = -41.52928638290478
 
 
 
@@ -2401,12 +2402,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 18100050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.5145989808685374
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.21877544126508444
+	y = -0.9809452577279649
+	theta = -41.88031925035092
 
 
 
@@ -2414,12 +2415,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 18200050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.4951432422399913
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.20357886753375218
+	y = -0.9550789834151038
+	theta = -42.231779148437774
 
 
 
@@ -2427,12 +2428,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 18300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.4547968137114666
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.19821619538705137
+	y = -0.9255621789226287
+	theta = -42.58129347266177
 
 
 
@@ -2440,12 +2441,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 18400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.399331518901374
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2032855348962873
+	y = -0.8959935841481032
+	theta = -42.926773154032915
 
 
 
@@ -2453,12 +2454,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 18500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.3367407916864953
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.21806869003877016
+	y = -0.8698888274161725
+	theta = -43.26670630592305
 
 
 
@@ -2466,12 +2467,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 18600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.27601121395193
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.24070986228670205
+	y = -0.8502069240722507
+	theta = -43.600380385091704
 
 
 
@@ -2479,12 +2480,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 18700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.2256785893982083
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.26854842116547567
+	y = -0.8390259295032039
+	theta = -43.927981506486894
 
 
 
@@ -2492,12 +2493,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 18800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.192559478336293
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.29850417920655337
+	y = -0.837397261279037
+	theta = -44.250549365426714
 
 
 
@@ -2505,12 +2506,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 18900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.180966301053199
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.32743124760397246
+	y = -0.8453486582588788
+	theta = -44.569805313260346
 
 
 
@@ -2518,12 +2519,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 19000050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.1924972975347625
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3524009813705932
+	y = -0.8619773201300001
+	theta = -44.88790194336567
 
 
 
@@ -2531,12 +2532,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 19100050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.2262709127338587
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3709172766450353
+	y = -0.8855812776225409
+	theta = -45.20715167311914
 
 
 
@@ -2544,12 +2545,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 19200050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.2793673888881574
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3810897617157305
+	y = -0.9138039732323952
+	theta = -45.529778764392525
 
 
 
@@ -2557,12 +2558,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 19300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.347276280505538
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.381789139730666
+	y = -0.9437958199643359
+	theta = -45.85771550328134
 
 
 
@@ -2570,12 +2571,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 19400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.424265895131104
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.37279116099152654
+	y = -0.9724146315855405
+	theta = -46.19244313133189
 
 
 
@@ -2583,12 +2584,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 19500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.5037055404350768
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.35489095072460247
+	y = -0.9964891507375383
+	theta = -46.534869720845
 
 
 
@@ -2596,12 +2597,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 19600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.5784346454648612
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.32994638669401494
+	y = -1.0131555458283765
+	theta = -46.88524027488851
 
 
 
@@ -2609,12 +2610,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 19700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.6412773096909175
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.30079664370845766
+	y = -1.0202472652162227
+	theta = -47.243083739434994
 
 
 
@@ -2622,12 +2623,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 19800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.685758362094668
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.27100949943666547
+	y = -1.0166799081929578
+	theta = -47.60721147040409
 
 
 
@@ -2635,12 +2636,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 19900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.7069983355511495
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2444458147613192
+	y = -1.002738220473432
+	theta = -47.975787306613555
 
 
 
@@ -2648,12 +2649,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 20000050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.702660219870028
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.22468912270271957
+	y = -0.9801622793213635
+	theta = -48.34648714016867
 
 
 
@@ -2661,12 +2662,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 20100050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.673715075672094
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.21445295971129857
+	y = -0.951962616784144
+	theta = -48.71675316215567
 
 
 
@@ -2674,12 +2675,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 20200050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.6247360903489945
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.21511491692988988
+	y = -0.9219699207959412
+	theta = -49.084124669722875
 
 
 
@@ -2687,12 +2688,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 20300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.5634830705404417
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.22650498857793375
+	y = -0.8942162495459529
+	theta = -49.446598278757776
 
 
 
@@ -2700,12 +2701,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 20400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.4997322074783916
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.24699608689358704
+	y = -0.8723047254132452
+	theta = -49.80294658581182
 
 
 
@@ -2713,12 +2714,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 20500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.443587414356996
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.27384380156044463
+	y = -0.8589181568773209
+	theta = -50.15291980655966
 
 
 
@@ -2726,12 +2727,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 20600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.403739308567122
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.30365394689234715
+	y = -0.8555484038758604
+	theta = -50.49727854799536
 
 
 
@@ -2739,12 +2740,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 20700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.3861657489076813
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3328516075859379
+	y = -0.8624401823126606
+	theta = -50.83765247885207
 
 
 
@@ -2752,12 +2753,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 20800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.3935566601949554
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3580734470077492
+	y = -0.8786839139091986
+	theta = -51.17626905374284
 
 
 
@@ -2765,12 +2766,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 20900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.425423084834185
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.37646718317639694
+	y = -0.9023835018751988
+	theta = -51.515624719762336
 
 
 
@@ -2778,12 +2779,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 21000050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.478615637845694
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.38592280380977506
+	y = -0.9308543859225485
+	theta = -51.85816702824575
 
 
 
@@ -2791,12 +2792,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 21100050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.547945799657075
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3852662089208602
+	y = -0.9608471997810689
+	theta = -52.20602859203032
 
 
 
@@ -2804,12 +2805,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 21200050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.6267363797162138
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.37442474413230126
+	y = -0.9888197334746484
+	theta = -52.56082317199603
 
 
 
@@ -2817,12 +2818,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 21300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.707300579914188
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3545409136817253
+	y = -1.0112837777813344
+	theta = -52.92349680996765
 
 
 
@@ -2830,12 +2831,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 21400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.7814604690625515
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3279808077991787
+	y = -1.0252322821996551
+	theta = -53.29422686795907
 
 
 
@@ -2843,12 +2844,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 21500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.841232893289634
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2981716260581048
+	y = -1.0286105486082775
+	theta = -53.67237291486532
 
 
 
@@ -2856,12 +2857,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 21600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.879748351520139
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.26922119224306396
+	y = -1.020744648664791
+	theta = -54.05649620419428
 
 
 
@@ -2869,12 +2870,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 21700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.892351063513681
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.24532817189273884
+	y = -1.0026028852847073
+	theta = -54.4444710393463
 
 
 
@@ -2882,12 +2883,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 21800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.8776829877879133
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2300742428707509
+	y = -0.9767703931596305
+	theta = -54.83370614569767
 
 
 
@@ -2895,12 +2896,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 21900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.8384261353312628
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.22576424993785443
+	y = -0.9470816080561881
+	theta = -55.221474444476456
 
 
 
@@ -2908,12 +2909,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 22000050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.7813410471141493
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.233000274332579
+	y = -0.9179673512228264
+	theta = -55.60531705800958
 
 
 
@@ -2921,12 +2922,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 22100050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.7163715805606135
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2506126392023043
+	y = -0.8936814581221874
+	theta = -55.983451162720996
 
 
 
@@ -2934,12 +2935,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 22200050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.654895947499194
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2759468174582411
+	y = -0.8776134958339438
+	theta = -56.35508832077706
 
 
 
@@ -2947,12 +2948,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 22300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.6075706921549404
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3053864755332901
+	y = -0.8718423146355927
+	theta = -56.720577915526974
 
 
 
@@ -2960,12 +2961,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 22400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.582420811733053
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3349442696907449
+	y = -0.8769742542830876
+	theta = -57.08133498474247
 
 
 
@@ -2973,12 +2974,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 22500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.583714814552091
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3607879387221801
+	y = -0.89220923938297
+	theta = -57.43957706591578
 
 
 
@@ -2986,12 +2987,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 22600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.611781218571423
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.37964909394557744
+	y = -0.9155385519240398
+	theta = -57.797948547370986
 
 
 
@@ -2999,12 +3000,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 22700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.663524202946782
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3891292381521648
+	y = -0.9440012795836003
+	theta = -58.15912666922813
 
 
 
@@ -3012,12 +3013,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 22800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.7332254018975384
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.38793967276310654
+	y = -0.9739776858756353
+	theta = -58.525479089522804
 
 
 
@@ -3025,12 +3026,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 22900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.8133223948224804
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3760911294297595
+	y = -1.001538745740557
+	theta = -58.89880162971256
 
 
 
@@ -3038,12 +3039,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 23000050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.8950881082929096
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.35500688007198306
+	y = -1.0228801240704377
+	theta = -59.280133869194806
 
 
 
@@ -3051,12 +3052,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 23100050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.9693217336331594
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.32749476891628154
+	y = -1.0348418856362074
+	theta = -59.6696426800241
 
 
 
@@ -3064,12 +3065,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 23200050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.027213201539069
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2975011450573228
+	y = -1.0354603739605102
+	theta = -60.066574853387415
 
 
 
@@ -3077,12 +3078,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 23300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.061465714834412
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.269600383755863
+	y = -1.0244355148322055
+	theta = -60.46929617354132
 
 
 
@@ -3090,12 +3091,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 23400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.06759880652998
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.24825264353058016
+	y = -1.0033577068988875
+	theta = -60.87544274502476
 
 
 
@@ -3103,12 +3104,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 23500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.045160567193789
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2369687999265237
+	y = -0.975560676958277
+	theta = -61.28220262567776
 
 
 
@@ -3116,12 +3117,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 23600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.9984251617276794
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2376031290711647
+	y = -0.9455673839323977
+	theta = -61.68671868239714
 
 
 
@@ -3129,12 +3130,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 23700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.9361442765149923
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.24999084133040353
+	y = -0.9182444158472445
+	theta = -62.08656119856991
 
 
 
@@ -3142,12 +3143,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 23800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.8701481573814767
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2720375410080135
+	y = -0.8978988258256877
+	theta = -62.48017562622141
 
 
 
@@ -3155,12 +3156,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 23900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.813028455913236
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.300201426980811
+	y = -0.8875646336990016
+	theta = -62.86719044195956
 
 
 
@@ -3168,12 +3169,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 24000050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.77557593872358
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.33018269798393596
+	y = -0.8886245341835641
+	theta = -63.24849328755088
 
 
 
@@ -3181,12 +3182,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 24100050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.764795881129513
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3576163111242289
+	y = -0.9007652454505676
+	theta = -63.62605088142324
 
 
 
@@ -3194,12 +3195,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 24200050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.783037336897743
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.37864202697935795
+	y = -0.922164293858835
+	theta = -64.0025304695362
 
 
 
@@ -3207,12 +3208,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 24300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.828225661042449
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.39032786339338643
+	y = -0.9497947340888525
+	theta = -64.38083420322597
 
 
 
@@ -3220,12 +3221,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 24400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.894757168378285
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.39098226734600805
+	y = -0.9797875958307203
+	theta = -64.76365676933021
 
 
 
@@ -3233,12 +3234,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 24500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.9745519195572
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.38038576186257533
+	y = -1.0078538401740516
+	theta = -65.15313248616803
 
 
 
@@ -3246,12 +3247,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 24600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.058004922823373
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3599259973543457
+	y = -1.0297946249427827
+	theta = -65.55058767812375
 
 
 
@@ -3259,12 +3260,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 24700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.134875786800967
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3325684029342976
+	y = -1.0421056780069262
+	theta = -65.95638817040609
 
 
 
@@ -3272,12 +3273,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 24800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.195306961693761
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3025727672312046
+	y = -1.0426173798413279
+	theta = -66.36987574908618
 
 
 
@@ -3285,12 +3286,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 24900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.231110098756851
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.27489940715205774
+	y = -1.0310335487855036
+	theta = -66.78940644525555
 
 
 
@@ -3298,12 +3299,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 25000050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.237264066551443
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.25434433905407017
+	y = -1.009182023083917
+	theta = -67.21251745513123
 
 
 
@@ -3311,12 +3312,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 25100050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.213315590329435
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.24457411642815968
+	y = -0.9808175602855465
+	theta = -67.63624386178638
 
 
 
@@ -3324,12 +3325,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 25200050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.164171665034963
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.24733027869411625
+	y = -0.9509444357492058
+	theta = -68.05757542081933
 
 
 
@@ -3337,12 +3338,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 25300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.099757349925342
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2620627899496
+	y = -0.9248110641315396
+	theta = -68.47399258732283
 
 
 
@@ -3350,12 +3351,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 25400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.033297788641104
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2861069132707748
+	y = -0.9068700459409201
+	theta = -68.88396832231535
 
 
 
@@ -3363,12 +3364,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 25500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.9785349987120053
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3153095699332812
+	y = -0.899999467810095
+	theta = -69.28729810117946
 
 
 
@@ -3376,12 +3377,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 25600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.946735624874011
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.34486556830601023
+	y = -0.9051417397001488
+	theta = -69.68515160105066
 
 
 
@@ -3389,12 +3390,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 25700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.944499349233322
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.370120764451182
+	y = -0.9213335607116626
+	theta = -70.07982516353806
 
 
 
@@ -3402,12 +3403,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 25800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -3.9729695078291556
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3872085285578038
+	y = -0.9459913853893679
+	theta = -70.47427509846139
 
 
 
@@ -3415,12 +3416,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 25900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.028344019068902
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3935080782537374
+	y = -0.9753225236834823
+	theta = -70.8715720492443
 
 
 
@@ -3428,12 +3429,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 26000050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.103089644063426
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3879679409010828
+	y = -1.0048065342335029
+	theta = -71.2744064511512
 
 
 
@@ -3441,12 +3442,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 26100050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.187263218271304
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.37131273107139334
+	y = -1.0297585679287553
+	theta = -71.68471541555753
 
 
 
@@ -3454,12 +3455,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 26200050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.269698660945595
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3460867599889105
+	y = -1.045995882452584
+	theta = -72.10344173738467
 
 
 
@@ -3467,12 +3468,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 26300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.33917336415569
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3164380765567471
+	y = -1.050573607951056
+	theta = -72.53041160347924
 
 
 
@@ -3480,12 +3481,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 26400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.385779086661177
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.28755540813036445
+	y = -1.042462414168903
+	theta = -72.96432893989481
 
 
 
@@ -3493,12 +3494,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 26500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.4025695170190895
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.26475959472355476
+	y = -1.0229598273886342
+	theta = -73.40290684856093
 
 
 
@@ -3506,12 +3507,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 26600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.3872519370194745
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2524030776897178
+	y = -0.9956227374412294
+	theta = -73.84316380026284
 
 
 
@@ -3519,12 +3520,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 26700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.343387415754982
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.25287515143252737
+	y = -0.9656264518981601
+	theta = -74.28188899396478
 
 
 
@@ -3532,12 +3533,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 26800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.280437661473984
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.26604451115720823
+	y = -0.9386715272193198
+	theta = -74.71622773554029
 
 
 
@@ -3545,12 +3546,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 26900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.212216199452179
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.28933399508443264
+	y = -0.9197612142022501
+	theta = -75.14427150168768
 
 
 
@@ -3558,12 +3559,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 27000050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.153902306098027
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3183718072171412
+	y = -0.9122242740707694
+	theta = -75.5654931216329
 
 
 
@@ -3571,12 +3572,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 27100050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.118503254605227
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.34795309887933534
+	y = -0.9172189896378665
+	theta = -75.9808833522427
 
 
 
@@ -3584,12 +3585,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 27200050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.114014075698422
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3730031628531588
+	y = -0.9337263908539075
+	theta = -76.39273367770322
 
 
 
@@ -3597,12 +3598,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 27300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.142182556832935
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.38935057754594854
+	y = -0.9588811524878798
+	theta = -76.80413508527306
 
 
 
@@ -3610,12 +3611,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 27400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.198939144959241
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3942747421594942
+	y = -0.9884742699792611
+	theta = -77.21835334095636
 
 
 
@@ -3623,12 +3624,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 27500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.275829268246695
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.38687200343308265
+	y = -1.017546584289417
+	theta = -77.63824725545228
 
 
 
@@ -3636,12 +3637,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 27600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.361669684293311
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.36826060050461634
+	y = -1.0410756233907972
+	theta = -78.06583018227695
 
 
 
@@ -3649,12 +3650,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 27700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.444055729548094
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3415679224944721
+	y = -1.0547687216759465
+	theta = -78.50199715070629
 
 
 
@@ -3662,12 +3663,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 27800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.5108134144676235
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.31158937430332134
+	y = -1.0559030269042042
+	theta = -78.9464027236611
 
 
 
@@ -3675,12 +3676,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 27900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.551652423277966
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.28403508902658875
+	y = -1.044038737507513
+	theta = -79.39748406510786
 
 
 
@@ -3688,12 +3689,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 28000050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.560078484616332
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.26440899335411977
+	y = -1.0213491723143435
+	theta = -79.85264930743566
 
 
 
@@ -3701,12 +3702,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 28100050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.535229746171213
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.25675563843224675
+	y = -0.992341825685604
+	theta = -80.3086571558973
 
 
 
@@ -3714,12 +3715,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 28200050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.482945770878059
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2626582110783106
+	y = -0.9629282295749966
+	theta = -80.76218013051441
 
 
 
@@ -3727,12 +3728,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 28300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.415304304825429
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2808512159116883
+	y = -0.9390742031825258
+	theta = -81.21047470760222
 
 
 
@@ -3740,12 +3741,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 28400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.348259685518096
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3075855591299374
+	y = -0.9254626311686525
+	theta = -81.65200513808476
 
 
 
@@ -3753,12 +3754,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 28500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.297843027147028
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.33757259126374484
+	y = -0.9245806426165731
+	theta = -82.08683110663657
 
 
 
@@ -3766,12 +3767,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 28600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.276204425548321
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.36514067110558723
+	y = -0.9364128433346899
+	theta = -82.51661540935127
 
 
 
@@ -3779,12 +3780,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 28700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.288963270968053
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3852714106922631
+	y = -0.9586558944674244
+	theta = -82.9442358519061
 
 
 
@@ -3792,12 +3793,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 28800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.334633850675442
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3943651386515482
+	y = -0.9872444255909801
+	theta = -83.37313217900291
 
 
 
@@ -3805,12 +3806,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 28900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.405804948355612
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3907461681746343
+	y = -1.0170253431840837
+	theta = -83.80659556407045
 
 
 
@@ -3818,12 +3819,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 29000050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.491110160809608
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3749534190646458
+	y = -1.042531990857758
+	theta = -84.247176058906
 
 
 
@@ -3831,12 +3832,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 29100050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.5771961072850935
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3497911280749575
+	y = -1.0588678138290761
+	theta = -84.69628707498697
 
 
 
@@ -3844,12 +3845,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 29200050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.650505355311783
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3200316547211995
+	y = -1.0626590861362266
+	theta = -85.15400668571547
 
 
 
@@ -3857,12 +3858,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 29300050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.6991211608094225
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.29166016902210984
+	y = -1.0529092759213379
+	theta = -85.61905722124665
 
 
 
@@ -3870,12 +3871,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 29400050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.714869010783281
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.27067424382365735
+	y = -1.0314712036300857
+	theta = -86.0889693373276
 
 
 
@@ -3883,12 +3884,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 29500050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.695444494266441
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2616703523392956
+	y = -1.0028542516935528
+	theta = -86.56045623840592
 
 
 
@@ -3896,12 +3897,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 29600050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.6458507190297595
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.2666469877532493
+	y = -0.9732699129320292
+	theta = -87.03000068783257
 
 
 
@@ -3909,12 +3910,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 29700050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.578224500254465
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.28447134843900995
+	y = -0.9491391821900084
+	theta = -87.49458575973554
 
 
 
@@ -3922,12 +3923,12 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 29800050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.509482499962493
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3112182810438485
+	y = -0.9355523651885094
+	theta = -87.95240820976099
 
 
 
@@ -3935,17 +3936,18 @@ python3 .//src/simulator/simulator.py --domain="AF_UNIX" --server-url="localhost
 +=simulator+=
   VSI time: 29900050100 ns
   Inputs:
-	v = 0.0
-	omega = 0.0
+	v = 0.3
+	omega = -4.457144361093794
   Outputs:
-	x = 0
-	y = 0
-	theta = 0
+	x = 0.3412160535592963
+	y = -0.9351867915140671
+	theta = -88.40335645975723
 
 
 
 +=+ XLVIP-INFO: XlTlmMessageLayer::disconnectFromServer():
 +=+    Disconnecting this remote client from TLM fabric server:
 +=+        clientId=:remoteSession0
+make[1]: Leaving directory '/home/ubuntu/IVSI-LineFollower-DigitalTwin/lineFollower'
 
-Script done on 2026-03-19 00:33:21+00:00 [COMMAND_EXIT_CODE="0"]
+Script done on 2026-03-19 09:02:01+00:00 [COMMAND_EXIT_CODE="0"]

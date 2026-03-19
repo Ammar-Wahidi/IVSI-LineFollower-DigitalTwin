@@ -27,7 +27,14 @@ class MySignals:
 
 
 # Start of user custom code region. Please apply edits only within these regions:  Global Variables & Definitions
+import random
+import math
 
+x     = random.uniform(-0.5, 0.5)
+y     = random.uniform(-0.5, 0.5)
+theta = random.uniform(-0.3, 0.3)
+dt    = 0.1
+noise_level = 0.0  
 # End of user custom code region. Please don't edit beyond this point.
 class Simulator:
 
@@ -68,7 +75,23 @@ class Simulator:
 			while(vsiCommonPythonApi.getSimulationTimeInNs() < self.totalSimulationTime):
 
 				# Start of user custom code region. Please apply edits only within these regions:  Inside the while loop
+				global x, y, theta
 
+				v     = self.mySignals.v
+				omega = self.mySignals.omega
+
+				# Robot kinematics equations
+				x     += v * math.cos(theta) * dt
+				y     += v * math.sin(theta) * dt
+				theta += omega * dt
+
+				# Add noise (for E3, change noise_level to 0.1 or 0.5)
+				x += noise_level * random.gauss(0, 1) * dt
+				y += noise_level * random.gauss(0, 1) * dt
+
+				self.mySignals.x     = x
+				self.mySignals.y     = y
+				self.mySignals.theta = theta
 				# End of user custom code region. Please don't edit beyond this point.
 
 				self.updateInternalVariables()

@@ -23,7 +23,14 @@ class MySignals:
 
 
 # Start of user custom code region. Please apply edits only within these regions:  Global Variables & Definitions
+import matplotlib
+matplotlib.use('Agg')  # no display needed, saves to file
+import matplotlib.pyplot as plt
 
+times    = []
+robot_xs = []
+robot_ys = []
+errors   = []
 # End of user custom code region. Please don't edit beyond this point.
 class Visualizer:
 
@@ -64,7 +71,14 @@ class Visualizer:
 			while(vsiCommonPythonApi.getSimulationTimeInNs() < self.totalSimulationTime):
 
 				# Start of user custom code region. Please apply edits only within these regions:  Inside the while loop
+				t     = vsiCommonPythonApi.getSimulationTimeInNs() * 1e-9
+				x     = self.mySignals.x
+				y     = self.mySignals.y
 
+				times.append(t)
+				robot_xs.append(x)
+				robot_ys.append(y)
+				errors.append(abs(y))  # lateral error = distance from y=0
 				# End of user custom code region. Please don't edit beyond this point.
 
 				self.updateInternalVariables()
@@ -137,7 +151,35 @@ class Visualizer:
 
 
 		# Start of user custom code region. Please apply edits only within these regions:  Protocol's callback function
+		# Generate plots when simulation ends
+		if len(times) > 0:
+			path_x = [i * 0.1 for i in range(50)]
+			path_y = [0.0] * 50
 
+			fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))
+
+			ax1.plot(path_x, path_y, 'b--', linewidth=2, label='Reference path')
+			ax1.plot(robot_xs, robot_ys, 'r-', linewidth=1.5, label='Robot trajectory')
+			ax1.set_title('Trajectory vs Path')
+			ax1.set_xlabel('X (m)')
+			ax1.set_ylabel('Y (m)')
+			ax1.legend()
+			ax1.grid(True)
+
+			ax2.plot(times, errors, 'g-', linewidth=1.5)
+			ax2.set_title('Lateral Error over Time')
+			ax2.set_xlabel('Time (s)')
+			ax2.set_ylabel('Error (m)')
+			ax2.grid(True)
+
+			plt.tight_layout()
+			plt.savefig('results_Kp2.0_Ki0.1_Kd0.3.png')
+			print("Plot saved!")
+
+			# Print KPIs
+			print(f"Max error (overshoot):     {max(errors):.4f} m")
+			print(f"Final error (steady state):{errors[-1]:.4f} m")
+			print(f"Simulation time:           {times[-1]:.1f} s")
 		# End of user custom code region. Please don't edit beyond this point.
 
 

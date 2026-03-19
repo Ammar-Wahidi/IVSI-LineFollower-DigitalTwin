@@ -28,6 +28,19 @@ class MySignals:
 
 # Start of user custom code region. Please apply edits only within these regions:  Global Variables & Definitions
 
+# Straight path: y=0 from x=0 to x=5
+path = [(i * 0.1, 0.0) for i in range(50)]
+
+# PID gains — change these for each E1 experiment
+Kp = 2.0
+Ki = 0.1
+Kd = 0.3
+
+# PID memory
+integral   = 0.0
+prev_error = 0.0
+dt         = 0.1
+
 # End of user custom code region. Please don't edit beyond this point.
 class Controller:
 
@@ -68,7 +81,41 @@ class Controller:
 			while(vsiCommonPythonApi.getSimulationTimeInNs() < self.totalSimulationTime):
 
 				# Start of user custom code region. Please apply edits only within these regions:  Inside the while loop
+				global integral, prev_error
 
+				# Read robot position from IVSI
+				x     = self.mySignals.x
+				y     = self.mySignals.y
+				theta = self.mySignals.theta
+
+				# Find nearest point on path
+				min_dist = float('inf')
+				nearest_idx = 0
+				for i, (px, py) in enumerate(path):
+					d = math.sqrt((x - px)**2 + (y - py)**2)
+					if d < min_dist:
+						min_dist = d
+						nearest_idx = i
+
+				# Lateral error = distance from path
+				lateral_error = y  # for straight path y=0, error is just y
+
+				# Heading error
+				desired_theta = 0.0  # straight path points in x direction
+				heading_error = desired_theta - theta
+
+				# PID calculation
+				error      = lateral_error
+				integral  += error * dt
+				derivative = (error - prev_error) / dt
+				prev_error = error
+
+				omega = Kp * error + Ki * integral + Kd * derivative
+				v     = 0.3  # constant forward speed
+
+				# Send to IVSI
+				self.mySignals.v     = v
+				self.mySignals.omega = omega
 				# End of user custom code region. Please don't edit beyond this point.
 
 				self.updateInternalVariables()
