@@ -124,7 +124,7 @@ v = 0.3 · max(0.3, 1 − |e_heading|)
 
 **Sample E1 Plot:**
 
-![E1 Best Gains](Plots/E1_set1_run1.png)
+![E1 Best Gains](lineFollower/Plots/E1_set1_run1.png)
 
 ---
 
@@ -146,9 +146,9 @@ Best gains (Set 1) applied to two curved paths:
 
 **Sample E2 Plots:**
 
-![E2 Sine Curve](Plots/E2_curved_run1.png)
+![E2 Sine Curve](lineFollower/Plots/E2_curved_run1.png)
 
-![E2 Arc](Plots/E2_arc.png)
+![E2 Arc](lineFollower/Plots/E2_arc.png)
 
 ---
 
@@ -166,13 +166,13 @@ Best gains (Set 1) applied to two curved paths:
 
 **Sample E3 Plots:**
 
-![E3 Low Noise](Plots/E3_low_noise_run1.png)
+![E3 Low Noise](lineFollower/Plots/E3_low_noise_run1.png)
 
-![E3 High Noise](Plots/E3_high_noise_run1.png)
+![E3 High Noise](lineFollower/Plots/E3_high_noise_run1.png)
 
-![E3 Low Disturbance](Plots/E3_dist0-5.png)
+![E3 Low Disturbance](lineFollower/Plots/E3_dist0-5.png)
 
-![E3 High Disturbance](Plots/E3_dist2.png)
+![E3 High Disturbance](lineFollower/Plots/E3_dist2.png)
 
 ---
 
@@ -189,9 +189,9 @@ Curved sine path with noise (`noise_level=0.2`):
 
 **E4 Comparison Plots:**
 
-![E4 PD](Plots/E4_PD.png)
+![E4 PD](lineFollower/Plots/E4_PD.png)
 
-![E4 PID](Plots/E4_PID.png)
+![E4 PID](lineFollower/Plots/E4_PID.png)
 
 ---
 
