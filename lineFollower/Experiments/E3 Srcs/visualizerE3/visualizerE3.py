@@ -174,7 +174,7 @@ class Visualizer:
 			ax2.grid(True)
 
 			plt.tight_layout()
-			plt.savefig('E3_dist2.png')
+			plt.savefig('E3_noise.png')
 			print("Plot saved!")
 
 			# Print KPIs

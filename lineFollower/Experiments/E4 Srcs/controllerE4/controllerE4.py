@@ -19,26 +19,37 @@ class MySignals:
 		self.y = 0
 		self.theta = 0
 
+		# Outputs
+		self.v = 0
+		self.omega = 0
+
 
 
 
 # Start of user custom code region. Please apply edits only within these regions:  Global Variables & Definitions
-import matplotlib
-matplotlib.use('Agg')  # no display needed, saves to file
-import matplotlib.pyplot as plt
 
-times    = []
-robot_xs = []
-robot_ys = []
-errors   = []
+path = [(i * 0.1, 0.0) for i in range(500)]
+
+Kp = 2.0
+Ki = 0 # PD, PID WILL ADD Ki
+Kd = 0.15
+Kp_head = 2.5
+
+int_lat_err = 0.0
+prev_lat_err = 0.0
+dt = 0.1
+
+def wrap_angle(a):
+    return (a + math.pi) % (2 * math.pi) - math.pi
+
 # End of user custom code region. Please don't edit beyond this point.
-class Visualizer:
+class Controller:
 
 	def __init__(self, args):
-		self.componentId = 2
+		self.componentId = 1
 		self.localHost = args.server_url
 		self.domain = args.domain
-		self.portNum = 50103
+		self.portNum = 50102
         
 		self.simulationStep = 0
 		self.stopRequested = False
@@ -71,17 +82,38 @@ class Visualizer:
 			while(vsiCommonPythonApi.getSimulationTimeInNs() < self.totalSimulationTime):
 
 				# Start of user custom code region. Please apply edits only within these regions:  Inside the while loop
-				t     = vsiCommonPythonApi.getSimulationTimeInNs() * 1e-9
+				global int_lat_err, prev_lat_err
+
 				x     = self.mySignals.x
 				y     = self.mySignals.y
+				theta = self.mySignals.theta
 
-				times.append(t)
-				robot_xs.append(x)
-				robot_ys.append(y)
-				r = 10.0
-				y_ref = r - math.sqrt(max(0, r**2 - x**2))
-				errors.append(abs(y - y_ref))
+				# Reference path (straight line y=0)
+				y_ref  = 2.0 * math.sin(0.3 * x)
+				dy_dx  = 2.0 * 0.3 * math.cos(0.3 * x)
+				desired_theta = math.atan2(dy_dx, 1.0)
 
+				# Errors
+				lat_err     = y_ref - y
+				heading_err = wrap_angle(desired_theta - theta)
+
+				# PID
+				d_lat        = (lat_err - prev_lat_err) / dt
+				int_lat_err += lat_err * dt
+				int_lat_err  = max(-5.0, min(5.0, int_lat_err))
+				prev_lat_err = lat_err
+
+				# Control output
+				omega = (Kp * lat_err +
+						Ki * int_lat_err +
+						Kd * d_lat +
+						Kp_head * heading_err +
+						dy_dx * 0.5)
+
+				v = 0.3 * max(0.3, 1.0 - abs(heading_err))
+
+				self.mySignals.v     = v
+				self.mySignals.omega = omega
 				# End of user custom code region. Please don't edit beyond this point.
 
 				self.updateInternalVariables()
@@ -105,11 +137,21 @@ class Visualizer:
 
 				# End of user custom code region. Please don't edit beyond this point.
 
+				vsiCanPythonGateway.setCanId(13)
+				vsiCanPythonGateway.setCanPayloadBits(self.packBytes('d', self.mySignals.v), 0, 64)
+				vsiCanPythonGateway.setDataLengthInBits(64)
+				vsiCanPythonGateway.sendCanPacket()
+
+				vsiCanPythonGateway.setCanId(14)
+				vsiCanPythonGateway.setCanPayloadBits(self.packBytes('d', self.mySignals.omega), 0, 64)
+				vsiCanPythonGateway.setDataLengthInBits(64)
+				vsiCanPythonGateway.sendCanPacket()
+
 				# Start of user custom code region. Please apply edits only within these regions:  After sending the packet
 
 				# End of user custom code region. Please don't edit beyond this point.
 
-				print("\n+=visualizer+=")
+				print("\n+=controller+=")
 				print("  VSI time:", end = " ")
 				print(vsiCommonPythonApi.getSimulationTimeInNs(), end = " ")
 				print("ns")
@@ -120,6 +162,11 @@ class Visualizer:
 				print(self.mySignals.y)
 				print("\ttheta =", end = " ")
 				print(self.mySignals.theta)
+				print("  Outputs:")
+				print("\tv =", end = " ")
+				print(self.mySignals.v)
+				print("\tomega =", end = " ")
+				print(self.mySignals.omega)
 				print("\n\n")
 
 				self.updateInternalVariables()
@@ -154,50 +201,6 @@ class Visualizer:
 
 
 		# Start of user custom code region. Please apply edits only within these regions:  Protocol's callback function
-		# Generate plots when simulation ends
-		if len(times) > 0:
-			path_x = [i * 0.1 for i in range(500)]
-			r = 10.0
-			path_y = [r - math.sqrt(max(0, r**2 - px**2)) for px in path_x]
-			fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))
-
-			ax1.plot(path_x, path_y, 'b--', linewidth=2, label='Reference path')
-			ax1.plot(robot_xs, robot_ys, 'r-', linewidth=1.5, label='Robot trajectory')
-			ax1.set_title('Trajectory vs Path')
-			ax1.set_xlabel('X (m)')
-			ax1.set_ylabel('Y (m)')
-			ax1.legend()
-			ax1.grid(True)
-
-			ax2.plot(times, errors, 'g-', linewidth=1.5)
-			ax2.set_title('Lateral Error over Time')
-			ax2.set_xlabel('Time (s)')
-			ax2.set_ylabel('Error (m)')
-			ax2.grid(True)
-
-			plt.tight_layout()
-			plt.savefig('E2_arc_run1.png')
-			print("Plot saved!")
-
-			# Print KPIs
-			# Overshoot
-			overshoot = max(errors)
-
-			# Settling time = first time error stays below 5% of max error
-			threshold = 0.1 * overshoot
-			settling_time = times[-1]
-			for i in range(len(errors)):
-				if all(e < threshold for e in errors[i:]):
-					settling_time = times[i]
-					break
-
-			# Steady state error = average of last 10% of errors
-			last_10 = errors[int(0.9*len(errors)):]
-			ss_error = sum(last_10) / len(last_10)
-
-			print(f"Max error (overshoot):     {overshoot:.4f} m")
-			print(f"Settling time:             {settling_time:.1f} s")
-			print(f"Final error (steady state):{ss_error:.4f} m")
 
 		# End of user custom code region. Please don't edit beyond this point.
 
@@ -279,8 +282,8 @@ def main():
 
 	args = inputArgs.parse_args()
                       
-	visualizer = Visualizer(args)
-	visualizer.mainThread()
+	controller = Controller(args)
+	controller.mainThread()
 
 
 
