@@ -273,7 +273,7 @@ disturbance_mag = 2.0  # E3 — high disturbance
 
 ## 🎬 Screencast Demo
 
-[![Watch Simulation Demo](Plots/E1_set1_run1.png)](https://github.com/Ammar-Wahidi/IVSI-LineFollower-DigitalTwin/blob/main/lineFollower/screencast%20of%20simulation/screencast%20of%20simulation.mp4)
+▶️ **[Click here to watch the simulation demo](https://github.com/Ammar-Wahidi/IVSI-LineFollower-DigitalTwin/blob/main/lineFollower/screencast%20of%20simulation/screencast%20of%20simulation.mp4)**
 
 ---
 
